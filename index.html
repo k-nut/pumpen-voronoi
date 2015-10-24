@@ -2,7 +2,19 @@
   <head>
     <meta charset="utf8" />
     <script src="./bower_components/requirejs/require.js" data-main="main.js"></script>
+    <link rel="stylesheet" href="./bower_components/leaflet/dist/leaflet.css" />
+    <style>
+      #map {
+        width: 800px;
+       height: 600px;
+      }
+      .part {
+        fill: transparent;
+          stroke: black;
+      }
+    </style>
   </head>
   <body>
+    <div id="map"></div>
   </body>
 </html>

@@ -24,6 +24,7 @@
   "dependencies": {
     "d3": "~3.5.6",
     "lodash": "~3.10.1",
-    "requirejs": "~2.1.20"
+    "requirejs": "~2.1.20",
+    "leaflet": "~0.7.5"
   }
 }

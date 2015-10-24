@@ -21,7 +21,7 @@ function   (lodash,         d3,      leaflet) {
     maxZoom: 18,
 }).addTo(map);
 
-  var svg, points, path, voronoi;
+  var svg, points, path, voronoi, svgPoints;
 
   var mapLayer = {
     onAdd: function(map) {
@@ -30,12 +30,14 @@ function   (lodash,         d3,      leaflet) {
     }
   };
 
-  var voronoi = d3.geom.voronoi()
+  voronoi = d3.geom.voronoi()
     .x(function(d) { return d.x; })
     .y(function(d) { return d.y; });
 
   function polygon(d) {
+    if (d){
       return "M" + d.join("L") + "Z";
+      }
   }
 
 
@@ -50,7 +52,8 @@ function   (lodash,         d3,      leaflet) {
         .style("height", map.getSize().y + 'px')
         .style("margin-left", topLeft.x + "px")
         .style("margin-top", topLeft.y + "px");
-      path = svg.append("g").selectAll("path");
+      path = svg.append("g").classed("paths", true).selectAll("path");
+      svgPoints = svg.append("g").classed("points", true).selectAll("circle");
       return svg;
   }
 
@@ -60,8 +63,6 @@ function   (lodash,         d3,      leaflet) {
 
          
   map.addLayer(mapLayer);
-  //drawLayer();
-  //
 
   function drawLayer(){
     var convertedPoints = points.map(function(p){
@@ -71,12 +72,12 @@ function   (lodash,         d3,      leaflet) {
 
 
 
-    svg.selectAll("circle").remove();
-    var svgPoints = svg.selectAll("circle")
+    svg.selectAll(".points circle").remove();
+    var svgPoints2 = svgPoints
                         .data(convertedPoints)
                         .enter();
 
-    svgPoints.append("circle")
+    svgPoints2.append("circle")
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
       .attr("r", 2);
 

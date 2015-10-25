@@ -64,8 +64,6 @@ function   (lodash,         d3,      leaflet) {
     map.addLayer(mapLayer);
   });
 
-         
-
   function drawLayer(){
     positionSvg();
     var bounds = map.getBounds();
@@ -95,16 +93,10 @@ function   (lodash,         d3,      leaflet) {
     path = path
       .data(voronoi(convertedPoints), polygon);
 
-  path.exit().remove();
+    path.exit().remove();
 
-  path.enter().append("path")
-      .attr("class", "part")
-      .attr("d", polygon);
-
-                        
-  
-  voronoi(convertedPoints).forEach(function(d) { d.point.cell = d; });
+    path.enter().append("path")
+        .attr("class", "part")
+        .attr("d", polygon);
   }
-
-
 });

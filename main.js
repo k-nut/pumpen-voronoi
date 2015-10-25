@@ -21,12 +21,26 @@ function   (lodash,         d3,      leaflet) {
     maxZoom: 18,
 }).addTo(map);
 
-  var svg, points, path, voronoi, svgPoints;
+  var points, voronoi;
+  var svg;
+  var path;
+  var svgPoints;
+
+  // set up svg
+  function createSvg(){
+    svg = d3.select(map.getPanes().overlayPane).append("svg")
+            .attr('id', 'overlay')
+            .attr("class", "leaflet-zoom-hide");
+    path      = svg.append("g").classed("paths",  true).selectAll("path");
+    svgPoints = svg.append("g").classed("points", true).selectAll("circle");
+  }
 
   var mapLayer = {
     onAdd: function(map) {
       map.on('viewreset moveend', drawLayer);
-      svg = setUpSVG();
+      createSvg();
+      positionSvg();
+      drawLayer();
     }
   };
 
@@ -41,36 +55,41 @@ function   (lodash,         d3,      leaflet) {
   }
 
 
-  function setUpSVG(){
+  function positionSvg(){
       var bounds = map.getBounds();
       var topLeft = map.latLngToLayerPoint(bounds.getNorthWest());
       var bottomRight = map.latLngToLayerPoint(bounds.getSouthEast());
-      var svg = d3.select(map.getPanes().overlayPane).append("svg")
-        .attr('id', 'overlay')
-        .attr("class", "leaflet-zoom-hide")
+      svg
         .style("width", map.getSize().x + 'px')
         .style("height", map.getSize().y + 'px')
         .style("margin-left", topLeft.x + "px")
         .style("margin-top", topLeft.y + "px");
-      path = svg.append("g").classed("paths", true).selectAll("path");
-      svgPoints = svg.append("g").classed("points", true).selectAll("circle");
+      svg.selectAll("g").attr("transform", "translate(" + -topLeft.x + "," + -topLeft.y + ")");
       return svg;
   }
 
   d3.json('data.json', function(json){
     points = json.elements;
+    map.addLayer(mapLayer);
   });
 
          
-  map.addLayer(mapLayer);
 
   function drawLayer(){
-    var convertedPoints = points.map(function(p){
+    positionSvg();
+    var bounds = map.getBounds();
+      var topLeft = map.latLngToLayerPoint(bounds.getNorthWest());
+    var drawLimit = bounds.pad(0.4);
+
+    var filteredPoints = points.filter(function(p) {
+      var latlng = new L.LatLng(p.lat, p.lon);
+      return drawLimit.contains(latlng);
+    });
+
+    var convertedPoints = filteredPoints.map(function(p){
       var latlng = new L.LatLng(p.lat, p.lon);
       return map.latLngToLayerPoint(latlng);
     });
-
-
 
     svg.selectAll(".points circle").remove();
     var svgPoints2 = svgPoints

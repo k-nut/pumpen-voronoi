@@ -9,6 +9,20 @@ html, body, #map{
 }
 
 .part {
-  fill: transparent;
+  /*fill: transparent;*/
+  fill-opacity:0.4;
   stroke: black;
+}
+
+.part.a0{
+  fill: green;
+}
+.part.a1{
+  fill: yellow;
+}
+.part.a2{
+  fill: orange;
+}
+.part.a3{
+  fill: red;
 }

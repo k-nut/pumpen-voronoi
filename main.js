@@ -1,14 +1,5 @@
 requirejs.config({
-    //By default load any module IDs from js/lib
     baseUrl: 'bower_components',
-    //except, if the module ID starts with "app",
-    //load it from the js/app directory. paths
-    //config is relative to the baseUrl, and
-    //never includes a ".js" extension since
-    //the paths config could be for a directory.
-    paths: {
-        app: '../app'
-    }
 });
 
 // Start the main app logic.
@@ -17,7 +8,7 @@ function   (lodash,         d3,      leaflet) {
   var map = L.map('map').setView([52.505, 13.41], 11);
 
   L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 18,
 }).addTo(map);
 
@@ -73,8 +64,6 @@ function   (lodash,         d3,      leaflet) {
     map.addLayer(mapLayer);
   });
 
-         
-
   function drawLayer(){
     positionSvg();
     var bounds = map.getBounds();
@@ -104,16 +93,10 @@ function   (lodash,         d3,      leaflet) {
     path = path
       .data(voronoi(convertedPoints), polygon);
 
-  path.exit().remove();
+    path.exit().remove();
 
-  path.enter().append("path")
-      .attr("class", "part")
-      .attr("d", polygon);
-
-                        
-  
-  voronoi(convertedPoints).forEach(function(d) { d.point.cell = d; });
+    path.enter().append("path")
+        .attr("class", "part")
+        .attr("d", polygon);
   }
-
-
 });

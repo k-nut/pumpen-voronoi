@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-10-10T15:13:02Z",
-    "timestamp_areas_base": "2015-10-09T07:02:02Z",
+    "timestamp_osm_base": "2015-10-24T16:54:02Z",
+    "timestamp_areas_base": "2015-10-23T13:10:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2414,8 +2414,8 @@
 {
   "type": "node",
   "id": 938653717,
-  "lat": 52.5202487,
-  "lon": 13.3464268,
+  "lat": 52.5202843,
+  "lon": 13.3464459,
   "tags": {
     "drinkable": "no",
     "loc_name": "Plumpe",
@@ -6266,7 +6266,7 @@
   "lon": 13.3675244,
   "tags": {
     "drinkable": "no",
-    "loc_name": "Plumpe",
+    "loc_name": "Pumpe",
     "man_made": "water_well",
     "pump": "manual",
     "pump:status": "ok",
@@ -10105,8 +10105,8 @@
 {
   "type": "node",
   "id": 2347301606,
-  "lat": 52.5052734,
-  "lon": 13.4973546,
+  "lat": 52.5052760,
+  "lon": 13.4973589,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -11200,6 +11200,16 @@
     "ref": "L47",
     "reg_name": "Berliner Pumpe",
     "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 3800882857,
+  "lat": 52.5236426,
+  "lon": 13.4462331,
+  "tags": {
+    "drinking_water": "yes",
+    "man_made": "water_well"
   }
 }
 

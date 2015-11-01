@@ -67,7 +67,7 @@ function   (lodash,         d3,      leaflet) {
   function drawLayer(){
     positionSvg();
     var bounds = map.getBounds();
-      var topLeft = map.latLngToLayerPoint(bounds.getNorthWest());
+    var topLeft = map.latLngToLayerPoint(bounds.getNorthWest());
     var drawLimit = bounds.pad(0.4);
 
     var filteredPoints = points.filter(function(p) {

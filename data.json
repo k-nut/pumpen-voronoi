@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-11-01T20:46:02Z",
-    "timestamp_areas_base": "2015-10-31T12:33:02Z",
+    "timestamp_osm_base": "2015-11-14T11:18:02Z",
+    "timestamp_areas_base": "2015-11-12T18:58:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -693,8 +693,8 @@
 {
   "type": "node",
   "id": 760035373,
-  "lat": 52.5000229,
-  "lon": 13.3214354,
+  "lat": 52.5000171,
+  "lon": 13.3214089,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -9644,8 +9644,8 @@
 {
   "type": "node",
   "id": 2078490507,
-  "lat": 52.4181098,
-  "lon": 13.4927192,
+  "lat": 52.4181106,
+  "lon": 13.4926987,
   "tags": {
     "man_made": "water_well",
     "pump": "manual",
@@ -11301,6 +11301,35 @@
   "lon": 13.4310382,
   "tags": {
     "man_made": "water_well"
+  }
+},
+{
+  "type": "node",
+  "id": 3827213283,
+  "lat": 52.5895631,
+  "lon": 13.2745931,
+  "tags": {
+    "man_made": "water_well"
+  }
+},
+{
+  "type": "node",
+  "id": 3828868557,
+  "lat": 52.5070975,
+  "lon": 13.5152105,
+  "tags": {
+    "man_made": "water_well",
+    "name": "Brunnen"
+  }
+},
+{
+  "type": "node",
+  "id": 3834941272,
+  "lat": 52.5044508,
+  "lon": 13.5170954,
+  "tags": {
+    "man_made": "water_well",
+    "name": "Pumpe"
   }
 }
 

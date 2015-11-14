@@ -7,10 +7,10 @@ requirejs(['lodash/lodash', 'd3/d3', 'leaflet/dist/leaflet'],
 function   (lodash,         d3,      leaflet) {
   var map = L.map('map').setView([52.505, 13.41], 11);
 
-  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+  L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
     maxZoom: 18,
-}).addTo(map);
+  }).addTo(map);
 
   var points, voronoi;
   var svg;

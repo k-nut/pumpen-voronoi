@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-11-14T11:18:02Z",
-    "timestamp_areas_base": "2015-11-12T18:58:02Z",
+    "timestamp_osm_base": "2015-11-27T12:19:02Z",
+    "timestamp_areas_base": "2015-11-15T11:39:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -189,15 +189,19 @@
   "lat": 52.5012634,
   "lon": 13.4588833,
   "tags": {
-    "drinkable": "no",
+    "addr:city": "Berlin",
+    "addr:housenumber": "20",
+    "addr:postcode": "10245",
+    "addr:street": "Corinthstraße",
+    "addr:suburb": "Friedrichsfelde",
+    "drinking_water": "pump",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "pump": "manual",
     "pump:style": "historic",
     "pump:type": "beam_pump",
     "ref": "8",
-    "reg_name": "Berliner Pumpe",
-    "water_well": "pump"
+    "reg_name": "Berliner Pumpe"
   }
 },
 {
@@ -475,10 +479,10 @@
 {
   "type": "node",
   "id": 727851977,
-  "lat": 52.4871200,
-  "lon": 13.3524316,
+  "lat": 52.4871368,
+  "lon": 13.3524375,
   "tags": {
-    "drinkable": "yes",
+    "drinking_water": "yes",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "pump": "manual",
@@ -1373,8 +1377,8 @@
 {
   "type": "node",
   "id": 832840932,
-  "lat": 52.4917383,
-  "lon": 13.3966269,
+  "lat": 52.4917362,
+  "lon": 13.3966348,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -1690,8 +1694,8 @@
 {
   "type": "node",
   "id": 892571634,
-  "lat": 52.5027058,
-  "lon": 13.3056651,
+  "lat": 52.5027075,
+  "lon": 13.3056269,
   "tags": {
     "drinkable": "no",
     "loc_name": "Plumpe",
@@ -3498,8 +3502,8 @@
 {
   "type": "node",
   "id": 966049521,
-  "lat": 52.4897575,
-  "lon": 13.3871352,
+  "lat": 52.4897657,
+  "lon": 13.3871183,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -4473,8 +4477,8 @@
 {
   "type": "node",
   "id": 1110468092,
-  "lat": 52.4666134,
-  "lon": 13.3672343,
+  "lat": 52.4666294,
+  "lon": 13.3672251,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -5164,8 +5168,8 @@
 {
   "type": "node",
   "id": 1166433763,
-  "lat": 52.4939871,
-  "lon": 13.3169656,
+  "lat": 52.4940025,
+  "lon": 13.3169635,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -5984,8 +5988,8 @@
 {
   "type": "node",
   "id": 1256785840,
-  "lat": 52.4941712,
-  "lon": 13.3276411,
+  "lat": 52.4941702,
+  "lon": 13.3276339,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -6330,8 +6334,8 @@
 {
   "type": "node",
   "id": 1309334851,
-  "lat": 52.4992950,
-  "lon": 13.3228269,
+  "lat": 52.4993016,
+  "lon": 13.3228035,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -8276,8 +8280,8 @@
 {
   "type": "node",
   "id": 1763030500,
-  "lat": 52.4828001,
-  "lon": 13.3247955,
+  "lat": 52.4828121,
+  "lon": 13.3247974,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -11314,22 +11318,11 @@
 },
 {
   "type": "node",
-  "id": 3828868557,
-  "lat": 52.5070975,
-  "lon": 13.5152105,
+  "id": 3848707363,
+  "lat": 52.5251867,
+  "lon": 13.4525515,
   "tags": {
-    "man_made": "water_well",
-    "name": "Brunnen"
-  }
-},
-{
-  "type": "node",
-  "id": 3834941272,
-  "lat": 52.5044508,
-  "lon": 13.5170954,
-  "tags": {
-    "man_made": "water_well",
-    "name": "Pumpe"
+    "man_made": "water_well"
   }
 }
 

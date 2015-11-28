@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-11-27T12:19:02Z",
+    "timestamp_osm_base": "2015-11-28T15:28:02Z",
     "timestamp_areas_base": "2015-11-15T11:39:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -8439,8 +8439,8 @@
 {
   "type": "node",
   "id": 1773517293,
-  "lat": 52.5064523,
-  "lon": 13.5132083,
+  "lat": 52.5064348,
+  "lon": 13.5132191,
   "tags": {
     "drinkable": "no",
     "loc_name": "Plumpe",
@@ -8449,7 +8449,7 @@
     "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
-    "ref": "29",
+    "ref": "L29",
     "reg_name": "Berliner Pumpe",
     "water_well": "pump"
   }
@@ -11211,6 +11211,19 @@
 },
 {
   "type": "node",
+  "id": 3708112290,
+  "lat": 52.5171473,
+  "lon": 13.4668220,
+  "tags": {
+    "man_made": "water_well",
+    "note": "no 27",
+    "pump:status": "ok",
+    "pump:style": "historic",
+    "water_well": "pump=manual"
+  }
+},
+{
+  "type": "node",
   "id": 3726515787,
   "lat": 52.5123447,
   "lon": 13.4771683,
@@ -11318,11 +11331,72 @@
 },
 {
   "type": "node",
+  "id": 3828868557,
+  "lat": 52.5070975,
+  "lon": 13.5152105,
+  "tags": {
+    "drinking_water": "yes",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Trinkwassernotbrunnen",
+    "pumo_style": "Lauchhammer",
+    "pump": "manual",
+    "pump:status": "o k.",
+    "pump_type": "beam_pump",
+    "rer": "L31",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
   "id": 3848707363,
   "lat": 52.5251867,
   "lon": 13.4525515,
   "tags": {
     "man_made": "water_well"
+  }
+},
+{
+  "type": "node",
+  "id": 3864965464,
+  "lat": 52.5168006,
+  "lon": 13.4610474,
+  "tags": {
+    "man_made": "water_well",
+    "note": "nr 40"
+  }
+},
+{
+  "type": "node",
+  "id": 3864974742,
+  "lat": 52.5183341,
+  "lon": 13.4518720,
+  "tags": {
+    "drinking_water": "no",
+    "man_made": "water_well",
+    "note": "nr 41"
+  }
+},
+{
+  "type": "node",
+  "id": 3865041357,
+  "lat": 52.5158188,
+  "lon": 13.4686562,
+  "tags": {
+    "drinking_water": "no",
+    "man_made": "water_well",
+    "note": "nr 25; \"Rüssel\" fehlt"
+  }
+},
+{
+  "type": "node",
+  "id": 3865041358,
+  "lat": 52.5173319,
+  "lon": 13.4566705,
+  "tags": {
+    "drinking_water": "no",
+    "man_made": "water_well",
+    "note": "nr 20"
   }
 }
 

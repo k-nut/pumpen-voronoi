@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-11-28T15:28:02Z",
+    "timestamp_osm_base": "2015-11-30T19:16:01Z",
     "timestamp_areas_base": "2015-11-15T11:39:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -11397,6 +11397,17 @@
     "drinking_water": "no",
     "man_made": "water_well",
     "note": "nr 20"
+  }
+},
+{
+  "type": "node",
+  "id": 3867409666,
+  "lat": 52.5221387,
+  "lon": 13.4278272,
+  "tags": {
+    "drinking_water": "no",
+    "man_made": "water_well",
+    "note": "nr 30"
   }
 }
 

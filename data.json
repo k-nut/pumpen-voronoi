@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-12-04T17:42:02Z",
-    "timestamp_areas_base": "2015-12-03T14:13:01Z",
+    "timestamp_osm_base": "2015-12-30T11:04:02Z",
+    "timestamp_areas_base": "2015-12-18T10:35:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -190,6 +190,7 @@
   "lon": 13.4588833,
   "tags": {
     "addr:city": "Berlin",
+    "addr:country": "DE",
     "addr:housenumber": "20",
     "addr:postcode": "10245",
     "addr:street": "Corinthstraße",
@@ -985,8 +986,8 @@
 {
   "type": "node",
   "id": 778710948,
-  "lat": 52.5348586,
-  "lon": 13.4058774,
+  "lat": 52.5348757,
+  "lon": 13.4058316,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -7420,8 +7421,8 @@
 {
   "type": "node",
   "id": 1539525095,
-  "lat": 52.4860500,
-  "lon": 13.5209376,
+  "lat": 52.4860777,
+  "lon": 13.5209043,
   "tags": {
     "man_made": "water_well",
     "ref": "L55",
@@ -8103,8 +8104,8 @@
 {
   "type": "node",
   "id": 1710009764,
-  "lat": 52.5159199,
-  "lon": 13.4969814,
+  "lat": 52.5159225,
+  "lon": 13.4970044,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -9045,8 +9046,8 @@
 {
   "type": "node",
   "id": 1912183776,
-  "lat": 52.5311209,
-  "lon": 13.3279312,
+  "lat": 52.5311375,
+  "lon": 13.3279260,
   "tags": {
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -11485,6 +11486,22 @@
     "drinking_water": "no",
     "man_made": "water_well",
     "note": "nr 44"
+  }
+},
+{
+  "type": "node",
+  "id": 3883827275,
+  "lat": 52.4991062,
+  "lon": 13.2977522,
+  "tags": {
+    "man_made": "water_well",
+    "name": "Trinkwassernotbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "89",
+    "water": "water_well",
+    "water_well": "pump"
   }
 }
 

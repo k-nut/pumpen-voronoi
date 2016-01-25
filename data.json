@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-12-30T11:04:02Z",
+    "timestamp_osm_base": "2016-01-25T16:41:02Z",
     "timestamp_areas_base": "2015-12-18T10:35:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -4216,7 +4216,7 @@
   "lat": 52.5098523,
   "lon": 13.3920191,
   "tags": {
-    "drinkable": "no",
+    "drinking_water": "no",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "pump": "manual",
@@ -4308,8 +4308,8 @@
 {
   "type": "node",
   "id": 1077596616,
-  "lat": 52.5130980,
-  "lon": 13.4580144,
+  "lat": 52.5130870,
+  "lon": 13.4579964,
   "tags": {
     "drinking_water": "no",
     "loc_name": "Plumpe",
@@ -8617,7 +8617,7 @@
   "lat": 52.5189190,
   "lon": 13.3809026,
   "tags": {
-    "drinkable": "no",
+    "drinking_water": "no",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "pump": "manual",
@@ -8635,9 +8635,9 @@
   "lat": 52.5096062,
   "lon": 13.4645589,
   "tags": {
-    "drinkable": "no",
-    "loc_name": "Plumpe",
+    "drinking_water": "no",
     "man_made": "water_well",
+    "name": "Trinkwassernotbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -9234,10 +9234,10 @@
 {
   "type": "node",
   "id": 1950672973,
-  "lat": 52.5123593,
-  "lon": 13.4710996,
+  "lat": 52.5123658,
+  "lon": 13.4711221,
   "tags": {
-    "drinkable": "no",
+    "drinking_water": "no",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "pump": "manual",
@@ -9352,8 +9352,8 @@
 {
   "type": "node",
   "id": 2008772049,
-  "lat": 52.5376710,
-  "lon": 13.3884070,
+  "lat": 52.5376826,
+  "lon": 13.3884290,
   "tags": {
     "comment": "ergänzt nach http://wiki.openstreetmap.org/wiki/Water_wells_in_Berlin",
     "loc_name": "Plumpe",
@@ -11166,6 +11166,16 @@
 },
 {
   "type": "node",
+  "id": 3607514139,
+  "lat": 52.5519496,
+  "lon": 13.4364401,
+  "tags": {
+    "man_made": "water_well",
+    "name": "Wasserpumpe"
+  }
+},
+{
+  "type": "node",
   "id": 3660267597,
   "lat": 52.5026968,
   "lon": 13.4290245,
@@ -11502,6 +11512,76 @@
     "ref": "89",
     "water": "water_well",
     "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 3942429557,
+  "lat": 52.4971250,
+  "lon": 13.3418822,
+  "tags": {
+    "drinking_water": "no",
+    "man_made": "water_well",
+    "name": "Trinkwassernotbrunnen",
+    "pump": "manual",
+    "pump:style": "historic",
+    "pump:type": "beam_pump",
+    "ref": "11",
+    "water": "water_well",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 3942971914,
+  "lat": 52.5368275,
+  "lon": 13.3873007,
+  "tags": {
+    "drinking_water": "no",
+    "man_made": "water_well",
+    "pump": "manual",
+    "pump:style": "Lauchhammer"
+  }
+},
+{
+  "type": "node",
+  "id": 3956575302,
+  "lat": 52.4980664,
+  "lon": 13.3277846,
+  "tags": {
+    "man_made": "water_well",
+    "name": "Trinkwassernotbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "100"
+  }
+},
+{
+  "type": "node",
+  "id": 3962563142,
+  "lat": 52.5075438,
+  "lon": 13.4641936,
+  "tags": {
+    "man_made": "water_well",
+    "name": "Trinkwassernotbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "67",
+    "water": "water_well",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 3964014163,
+  "lat": 52.5244487,
+  "lon": 13.4282032,
+  "tags": {
+    "drinking_water": "no",
+    "man_made": "water_well",
+    "note": "nr 17"
   }
 }
 

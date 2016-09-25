@@ -3,8 +3,8 @@ requirejs.config({
 });
 
 // Start the main app logic.
-requirejs(['lodash/lodash', 'd3/d3', 'leaflet/dist/leaflet'],
-  function   (lodash,         d3,      leaflet) {
+requirejs(['leaflet/dist/leaflet'],
+  function   (leaflet) {
     var map = L.map('map').setView([52.505, 13.41], 11);
 
     L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {

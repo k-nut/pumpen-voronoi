@@ -19,11 +19,19 @@ sh ./download.sh
 
 ## Setup
 
-Install the dependencies with bower by running 
+Install the dependencies with yarn or npm by running
 
 ```
-bower install
+yarn install
 ```
+
+
+## Building
+Create a build with
+```bash
+npx parcel build main.js
+```
+
 
 ## Inspiration
 

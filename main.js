@@ -57,11 +57,6 @@ function positionSvg(){
     return svg;
 }
 
-d3.json('data.json', function(json){
-  points = json.elements;
-  map.addLayer(mapLayer);
-});
-
 function drawLayer(){
   positionSvg();
   var bounds = map.getBounds();
@@ -96,3 +91,13 @@ function drawLayer(){
       .attr("class", "part")
       .attr("d", polygon);
 }
+
+fetch('https://overpass-api.de/api/interpreter', {
+  method: "POST",
+  body: "[out:json];area[name='Berlin'];node(area)[loc_name='Plumpe'];out;"
+}).then(response => response.json())
+  .then(function(json){
+  points = json.elements;
+  map.addLayer(mapLayer);
+});
+

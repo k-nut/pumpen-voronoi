@@ -7,16 +7,6 @@ Berlin's public water pumps on a voronoi map
 ![Screenshot](https://raw.githubusercontent.com/k-nut/pumpen-voronoi/master/screenshot.png)
 
 
-## Update data
-
-All the data is in the `data.json` file.
-If you want to update to the current state you need to query the openstreetmap [overpass turbo api ](http://overpass-turbo.eu/s/cjg)
-
-```
-pip install httpie
-sh ./download.sh
-```
-
 ## Setup
 
 Install the dependencies with yarn or npm by running
@@ -24,6 +14,12 @@ Install the dependencies with yarn or npm by running
 ```
 yarn install
 ```
+
+## Develop
+```bash
+npx parcel watch main.js
+```
+and then start a local server (e.g. `python3 -m http.server`)
 
 
 ## Building

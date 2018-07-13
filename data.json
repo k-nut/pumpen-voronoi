@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.54.13 ff15392f",
+  "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-04-15T09:23:02Z",
-    "timestamp_areas_base": "2018-04-15T08:01:02Z",
+    "timestamp_osm_base": "2018-07-13T07:56:02Z",
+    "timestamp_areas_base": "2018-07-13T06:59:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21,6 +21,7 @@
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
+    "ref": "11",
     "water_well": "pump",
     "wikipedia": "de:Liste der Straßenbrunnen in Berlin"
   }
@@ -38,6 +39,7 @@
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
+    "ref": "24",
     "water_well": "pump",
     "wikipedia": "de:Liste der Straßenbrunnen in Berlin"
   }
@@ -45,13 +47,17 @@
 {
   "type": "node",
   "id": 499609652,
-  "lat": 52.5240211,
-  "lon": 13.3080205,
+  "lat": 52.5241640,
+  "lon": 13.3080156,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
+    "ref": "119",
     "water_well": "pump"
   }
 },
@@ -61,38 +67,33 @@
   "lat": 52.5238403,
   "lon": 13.3118093,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
+    "ref": "7",
     "water_well": "pump"
   }
 },
 {
   "type": "node",
   "id": 520277232,
-  "lat": 52.5779068,
-  "lon": 13.4048169,
+  "lat": 52.5778804,
+  "lon": 13.4048515,
   "tags": {
-    "alt_name": "Trinkwassernotbrunnen",
-    "description": "Wasserpumpe",
+    "description": "Historische, außer Betrieb gesetzte Berliner Straßenpumpe",
+    "image": "File:Berlin Pumpe Schlosspark.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
-    "note": "ohne Funktion",
     "pump": "manual",
+    "pump:status": "out_of_order",
+    "pump:style": "historic",
     "pump:type": "beam_pump",
     "water_well": "pump"
-  }
-},
-{
-  "type": "node",
-  "id": 527648581,
-  "lat": 52.5781409,
-  "lon": 13.4061369,
-  "tags": {
-    "man_made": "water_well",
-    "name": "Vogeltränke"
   }
 },
 {
@@ -187,15 +188,15 @@
 {
   "type": "node",
   "id": 705853544,
-  "lat": 52.5049091,
-  "lon": 13.3003804,
+  "lat": 52.5048993,
+  "lon": 13.3004354,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:style": "Schliephacke",
     "pump:type": "beam_pump",
     "ref": "132",
     "water_well": "pump"
@@ -366,12 +367,12 @@
   "lon": 13.3135529,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
-    "image": "http://commons.wikimedia.org/wiki/File:Berlin_Pumpe_53.jpg",
+    "image": "File:Berlin Pumpe 53.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "53",
     "water_well": "pump"
@@ -879,15 +880,15 @@
 {
   "type": "node",
   "id": 760035391,
-  "lat": 52.4970348,
-  "lon": 13.3126436,
+  "lat": 52.4970356,
+  "lon": 13.3126168,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:style": "Schliephacke",
     "pump:type": "beam_pump",
     "ref": "103",
     "water_well": "pump"
@@ -896,17 +897,24 @@
 {
   "type": "node",
   "id": 764610004,
-  "lat": 52.4990157,
-  "lon": 13.4453483,
+  "lat": 52.4990250,
+  "lon": 13.4453414,
   "tags": {
+    "addr:full": "Cuvrystraße 49",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Cuvrystr.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
+    "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "41",
+    "start_date": "1968",
     "water_well": "pump"
   }
 },
@@ -1021,7 +1029,8 @@
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:status": "ok",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "68",
     "water_well": "pump"
@@ -1444,14 +1453,15 @@
 {
   "type": "node",
   "id": 822208646,
-  "lat": 52.5013665,
-  "lon": 13.3193134,
+  "lat": 52.5013359,
+  "lon": 13.3193188,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:status": "ok",
     "pump:style": "historic",
     "pump:type": "beam_pump",
     "ref": "51",
@@ -1715,10 +1725,11 @@
 {
   "type": "node",
   "id": 850874866,
-  "lat": 52.4111001,
-  "lon": 13.3963887,
+  "lat": 52.4111472,
+  "lon": 13.3963458,
   "tags": {
-    "man_made": "water_well"
+    "man_made": "water_well",
+    "playground": "water"
   }
 },
 {
@@ -1773,17 +1784,24 @@
 {
   "type": "node",
   "id": 864085700,
-  "lat": 52.5008092,
-  "lon": 13.4311502,
+  "lat": 52.5008044,
+  "lon": 13.4311938,
   "tags": {
+    "addr:full": "Lausitzer Platz, ggü. 12",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Lausitzer Platz.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:status": "ok",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "12",
+    "start_date": "1985",
     "water_well": "pump"
   }
 },
@@ -1807,36 +1825,49 @@
 {
   "type": "node",
   "id": 876220525,
-  "lat": 52.5025833,
-  "lon": 13.4179567,
+  "lat": 52.5025818,
+  "lon": 13.4179414,
   "tags": {
+    "addr:full": "Naunynstraße 51",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2018-05-20",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Naunynstr 51.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:status": "ok",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "45",
+    "start_date": "1989",
     "water_well": "pump"
   }
 },
 {
   "type": "node",
   "id": 876265190,
-  "lat": 52.5003784,
-  "lon": 13.4268200,
+  "lat": 52.5003916,
+  "lon": 13.4269072,
   "tags": {
+    "addr:full": "Naunynstraße 2",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Naunynstr 2.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
+    "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "91",
+    "start_date": "1987",
     "water_well": "pump"
   }
 },
@@ -1911,18 +1942,25 @@
 {
   "type": "node",
   "id": 891532049,
-  "lat": 52.4930078,
-  "lon": 13.4313167,
+  "lat": 52.4930135,
+  "lon": 13.4312937,
   "tags": {
+    "addr:full": "Paul-Lincke-Ufer, ggü. 16",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Paul-Lincke-Ufer 16.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
+    "pump:status": "broken",
     "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "66",
+    "start_date": "2002",
     "water_well": "pump"
   }
 },
@@ -1991,7 +2029,7 @@
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "Schliephacke",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "64",
     "water_well": "pump",
@@ -2018,26 +2056,49 @@
 {
   "type": "node",
   "id": 897605274,
-  "lat": 52.5958982,
-  "lon": 13.4330209,
+  "lat": 52.5958750,
+  "lon": 13.4330462,
   "tags": {
+    "addr:full": "Bahnhofstraße 1",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen56 FranzBuchholz Bahnhofstraße (2).jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa056",
+    "operator": "Land",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Pankow",
     "pump:type": "beam_pump",
     "ref": "56",
-    "water_well": "pump"
+    "start_date": "~1935",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
   "type": "node",
   "id": 899293906,
-  "lat": 52.6029600,
-  "lon": 13.4496579,
+  "lat": 52.6029505,
+  "lon": 13.4496910,
   "tags": {
+    "addr:full": "Freischützstraße 62",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 11 Blankenburg Freischützstraße (8).jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws011",
+    "operator": "Bund",
     "pump": "manual",
-    "ref": "11"
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "11",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -2067,18 +2128,19 @@
     "alt_name": "Trinkwassernotbrunnen",
     "check_date": "2017-11-20",
     "colour": "#35412E",
-    "image": "File:Straßenbrunnen13 Pankow AmSchlosspark (12).jpg",
+    "image": "File:Straßenbrunnen13 Pankow AmSchlosspark (1).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
-    "official_ref": "Pa013",
+    "official_ref": "STRB03Pa013",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "Wappenschildgehäuse",
+    "pump:style": "Pankow",
     "pump:type": "beam_pump",
-    "ref": "none",
-    "start_date": "1990",
+    "ref": "13",
+    "start_date": "~1990",
     "water_well": "pump",
-    "wikipedia": "de:Liste der Straßenbrunnen in Berlin"
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -2087,14 +2149,22 @@
   "lat": 52.4957472,
   "lon": 13.4185623,
   "tags": {
+    "addr:full": "Planufer 93a",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-20",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Planufer 93.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
+    "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "17",
+    "start_date": "1960",
     "water_well": "pump"
   }
 },
@@ -2186,18 +2256,24 @@
 {
   "type": "node",
   "id": 918424791,
-  "lat": 52.5472662,
-  "lon": 13.4162212,
+  "lat": 52.5473197,
+  "lon": 13.4161840,
   "tags": {
+    "addr:full": "Stargarder Straße 7",
     "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen3 PrBg Stargarder-Gethsemane (2).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb003",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "3",
-    "water_well": "pump"
+    "start_date": "~1900",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -2277,14 +2353,21 @@
   "lat": 52.5032722,
   "lon": 13.4203756,
   "tags": {
+    "addr:full": "Waldemarstraße 46",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Waldemarstraße.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:status": "ok",
+    "pump:style": "Borsig",
     "pump:type": "beam_pump",
     "ref": "43",
+    "start_date": "1995",
     "water_well": "pump"
   }
 },
@@ -2309,8 +2392,8 @@
 {
   "type": "node",
   "id": 924123851,
-  "lat": 52.4834094,
-  "lon": 13.4552287,
+  "lat": 52.4833997,
+  "lon": 13.4552589,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
     "loc_name": "Plumpe",
@@ -2366,17 +2449,15 @@
   "lat": 52.5032723,
   "lon": 13.4375401,
   "tags": {
-    "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
-    "loc_name": "Plumpe",
+    "addr:full": "Köpenicker Straße 181",
+    "check_date": "2018-05-19",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
-    "pump": "manual",
-    "pump:status": "ok",
-    "pump:style": "modern",
-    "pump:type": "beam_pump",
+    "note": "Keine sichtbare Pumpe an diesem Standort vorhanden (Stand 05/2018)",
+    "operator": "Bund",
+    "pump": "no",
     "ref": "63",
-    "water_well": "pump"
+    "start_date": "2005"
   }
 },
 {
@@ -2385,35 +2466,46 @@
   "lat": 52.5050045,
   "lon": 13.4335785,
   "tags": {
+    "addr:full": "Köpenicker Straße 166",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Köpenicker Str 166.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
-    "pump:status": "missing_beam",
-    "pump:style": "modern",
+    "pump:status": "ok",
+    "pump:style": "Borsig",
     "pump:type": "beam_pump",
     "ref": "23",
-    "water_well": "pump",
-    "wikipedia": "de:Liste der Straßenbrunnen in Berlin"
+    "start_date": "1965",
+    "water_well": "pump"
   }
 },
 {
   "type": "node",
   "id": 928994447,
-  "lat": 52.4999558,
-  "lon": 13.4334694,
+  "lat": 52.4999408,
+  "lon": 13.4334754,
   "tags": {
+    "addr:full": "Zeughofstraße, ggü. 21",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Zeughofstr.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
     "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "97",
+    "start_date": "1988",
     "water_well": "pump"
   }
 },
@@ -2423,10 +2515,13 @@
   "lat": 52.5181894,
   "lon": 13.3140147,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Charlottenburg Guerickestraße Wasserpumpe-001.jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "6",
     "water_well": "pump"
@@ -2475,14 +2570,21 @@
   "lat": 52.5012603,
   "lon": 13.4147928,
   "tags": {
+    "addr:full": "Segitzdamm, ggü. 6",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-20",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Segitzdamm.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
+    "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "80",
+    "start_date": "1977",
     "water_well": "pump"
   }
 },
@@ -2525,18 +2627,24 @@
 {
   "type": "node",
   "id": 938334536,
-  "lat": 52.5018693,
-  "lon": 13.4241976,
+  "lat": 52.5018618,
+  "lon": 13.4241742,
   "tags": {
+    "addr:full": "Mariannenplatz, ggü. Mariannenstraße",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Mariannenplatz.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:status": "broken",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "34",
+    "start_date": "2012",
     "water_well": "pump"
   }
 },
@@ -2882,7 +2990,7 @@
   "lon": 13.3563454,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "drinking_water:legal": "no",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
@@ -2919,13 +3027,14 @@
   "lat": 52.5221576,
   "lon": 13.3592291,
   "tags": {
-    "description:de": "Berliner Straßenbrunnen; Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2016",
+    "drinking_water:legal": "no",
     "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:status": "broken",
-    "pump:style": "historic",
+    "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "45",
     "water_well": "pump"
@@ -2972,18 +3081,25 @@
 {
   "type": "node",
   "id": 939103655,
-  "lat": 52.4973880,
-  "lon": 13.4159605,
+  "lat": 52.4973984,
+  "lon": 13.4159761,
   "tags": {
+    "addr:full": "Kohlfurter Straße 11",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2018-05-20",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Kohlfurter Str.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "Lauchhammer",
+    "pump:status": "ok",
+    "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "8",
+    "start_date": "1983",
     "water_well": "pump"
   }
 },
@@ -3740,16 +3856,6 @@
 },
 {
   "type": "node",
-  "id": 963276436,
-  "lat": 52.5834500,
-  "lon": 13.1579500,
-  "tags": {
-    "description": "Horizontalbrunnen",
-    "man_made": "water_well"
-  }
-},
-{
-  "type": "node",
   "id": 963643060,
   "lat": 52.4917698,
   "lon": 13.3908276,
@@ -3876,8 +3982,8 @@
 {
   "type": "node",
   "id": 966049534,
-  "lat": 52.4770680,
-  "lon": 13.3306418,
+  "lat": 52.4770705,
+  "lon": 13.3306834,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
     "loc_name": "Plumpe",
@@ -3935,8 +4041,8 @@
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:status": "broken",
-    "pump:style": "modern",
+    "pump:status": "ok",
+    "pump:style": "Schliephacke",
     "pump:type": "beam_pump",
     "ref": "86",
     "water_well": "pump"
@@ -4020,17 +4126,25 @@
 {
   "type": "node",
   "id": 969763481,
-  "lat": 52.5031004,
-  "lon": 13.4315679,
+  "lat": 52.5031015,
+  "lon": 13.4315732,
   "tags": {
+    "addr:full": "Pücklerstraße 37",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Pücklerstr.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
+    "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "27",
+    "start_date": "1971",
     "water_well": "pump"
   }
 },
@@ -4055,37 +4169,48 @@
 {
   "type": "node",
   "id": 974019037,
-  "lat": 52.4938951,
-  "lon": 13.4148673,
+  "lat": 52.4938940,
+  "lon": 13.4148734,
   "tags": {
+    "addr:full": "Grimmstraße 24",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2018-05-20",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Grimmstr.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
     "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "18",
+    "start_date": "1971",
     "water_well": "pump"
   }
 },
 {
   "type": "node",
   "id": 974019048,
-  "lat": 52.5015163,
-  "lon": 13.4157197,
+  "lat": 52.5015135,
+  "lon": 13.4157136,
   "tags": {
+    "addr:full": "Erkelenzdamm 1",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-20",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Erkelenzdamm 1.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
     "pump:status": "ok",
-    "pump:style": "historic",
+    "pump:style": "Borsig",
     "pump:type": "beam_pump",
     "ref": "13",
+    "start_date": "1954",
     "water_well": "pump"
   }
 },
@@ -4174,19 +4299,27 @@
 {
   "type": "node",
   "id": 987852796,
-  "lat": 52.5391936,
-  "lon": 13.4081400,
+  "lat": 52.5392456,
+  "lon": 13.4081607,
   "tags": {
+    "addr:full": "Oderberger Straße 16",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2010",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 1 PrBg Oderberger (11).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb001",
+    "operator": "Bund",
     "pump": "manual",
     "pump:status": "broken",
-    "pump:style": "historic",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "1",
-    "water_well": "pump"
+    "start_date": "~1900",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -4309,7 +4442,7 @@
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "Schliephacke",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "74",
     "water_well": "pump",
@@ -4565,15 +4698,21 @@
   "lat": 52.4974662,
   "lon": 13.4314791,
   "tags": {
+    "addr:full": "Wiener Straße 21",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Wiener Straße 21.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
     "pump:status": "missing_beam",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "65",
+    "start_date": "1984",
     "water_well": "pump"
   }
 },
@@ -4741,14 +4880,18 @@
 {
   "type": "node",
   "id": 1093865047,
-  "lat": 52.4819171,
-  "lon": 13.3589877,
+  "lat": 52.4818459,
+  "lon": 13.3589650,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-04-18",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Schoeneberg Cheruskerstr.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "96",
@@ -4809,18 +4952,24 @@
 {
   "type": "node",
   "id": 1104542407,
-  "lat": 52.4981953,
-  "lon": 13.4354101,
+  "lat": 52.4980741,
+  "lon": 13.4355321,
   "tags": {
+    "addr:full": "Görlitzer Straße, ggü. 64",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Görlitzer Str 64.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
     "pump:status": "missing_beam",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "71",
+    "start_date": "1974",
     "water_well": "pump"
   }
 },
@@ -4830,14 +4979,21 @@
   "lat": 52.5039882,
   "lon": 13.4286799,
   "tags": {
+    "addr:full": "Wrangelstraße 10",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Wrangelstr.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
+    "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "28",
+    "start_date": "1985",
     "water_well": "pump"
   }
 },
@@ -4950,14 +5106,22 @@
   "lat": 52.5069234,
   "lon": 13.4290321,
   "tags": {
+    "addr:full": "Köpenicker Straße 145",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Köpenicker Str 145.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:status": "ok",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "60",
+    "start_date": "1991",
     "water_well": "pump"
   }
 },
@@ -5042,7 +5206,7 @@
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:status": "ok",
-    "pump:style": "Schliephacke",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "water_well": "pump",
     "wikipedia": "de:Liste der Straßenbrunnen in Berlin"
@@ -5136,17 +5300,24 @@
 {
   "type": "node",
   "id": 1138521051,
-  "lat": 52.4966299,
-  "lon": 13.4113784,
+  "lat": 52.4966113,
+  "lon": 13.4113956,
   "tags": {
+    "addr:full": "Böcklerstr./Erkelenzdamm",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-20",
+    "colour": "#35412E;blue",
+    "image": "File:Str.brunnen Kreuzberg Böcklerstr-Erkelenzdamm.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:status": "ok",
+    "pump:style": "ok",
     "pump:type": "beam_pump",
     "ref": "42",
+    "start_date": "1990",
     "water_well": "pump"
   }
 },
@@ -5174,10 +5345,15 @@
   "lon": 13.4290157,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-04",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Neukoelln Reuterstr.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:status": "broken",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "116",
@@ -5272,13 +5448,16 @@
   "lon": 13.4288245,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-04",
     "colour": "#35412E",
     "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Muskauer Str.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "Schliephacke",
+    "pump:status": "ok",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "89",
     "water_well": "pump",
@@ -5488,14 +5667,19 @@
 {
   "type": "node",
   "id": 1146764059,
-  "lat": 52.4197765,
-  "lon": 13.2843299,
+  "lat": 52.4197558,
+  "lon": 13.2842923,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "colour": "green;blue",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
-    "ref": "38"
+    "ref": "38",
+    "water_well": "pump"
   }
 },
 {
@@ -5568,11 +5752,10 @@
 {
   "type": "node",
   "id": 1154543493,
-  "lat": 52.4866775,
-  "lon": 13.3861880,
+  "lat": 52.4859703,
+  "lon": 13.3864354,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
-    "fixme": "ref may also be 60, I don’t remember",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
@@ -5711,11 +5894,10 @@
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
-    "note": "ref number unreadable due to aufkleber",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
-    "ref": "3x",
+    "ref": "3",
     "water_well": "pump"
   }
 },
@@ -5860,18 +6042,25 @@
 {
   "type": "node",
   "id": 1180321382,
-  "lat": 52.5381230,
-  "lon": 13.4286380,
+  "lat": 52.5381163,
+  "lon": 13.4286275,
   "tags": {
+    "addr:full": "Ella-Kay-Straße / Danziger Straße",
     "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen43 PrBg EllaKay-Danziger (1).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb043",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:style": "Krause",
     "pump:type": "beam_pump",
     "ref": "43",
-    "water_well": "pump"
+    "start_date": "~1925",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -5911,10 +6100,19 @@
 {
   "type": "node",
   "id": 1191080073,
-  "lat": 52.4359093,
-  "lon": 13.2101588,
+  "lat": 52.4359420,
+  "lon": 13.2100801,
   "tags": {
-    "man_made": "water_well"
+    "alt_name": "Trinkwassernotbrunnen",
+    "colour": "green;blue",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "35",
+    "water_well": "pump"
   }
 },
 {
@@ -6030,15 +6228,15 @@
   "lat": 52.4991292,
   "lon": 13.4113979,
   "tags": {
-    "alt_name": "Trinkwassernotbrunnen",
-    "loc_name": "Plumpe",
+    "addr:full": "Wassertorstraße 4",
+    "check_date": "2018-05-20",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
-    "pump": "manual",
-    "pump:style": "modern",
-    "pump:type": "beam_pump",
+    "note": "Keine sichtbare Pumpe an diesem Standort vorhanden (Stand 05/2018)",
+    "operator": "Land",
+    "pump": "no",
     "ref": "49",
-    "water_well": "pump"
+    "start_date": "1956"
   }
 },
 {
@@ -6190,18 +6388,24 @@
 {
   "type": "node",
   "id": 1210092951,
-  "lat": 52.5487712,
-  "lon": 13.4077222,
+  "lat": 52.5488162,
+  "lon": 13.4076369,
   "tags": {
+    "addr:full": "Sonnenburger Straße 75",
     "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen36 PrBg Sonnenburger (1).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb036",
+    "operator": "Bund",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "36",
-    "water_well": "pump"
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -6279,12 +6483,11 @@
   "lon": 13.3076419,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:style": "Borsig",
     "pump:type": "beam_pump",
     "ref": "106",
     "water_well": "pump"
@@ -6415,14 +6618,22 @@
   "lat": 52.4970813,
   "lon": 13.4253240,
   "tags": {
+    "addr:full": "Reichenberger Straße 150",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Reichenberger Str 150.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
+    "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "40",
+    "start_date": "1976",
     "water_well": "pump"
   }
 },
@@ -6501,15 +6712,16 @@
   "lat": 52.4971199,
   "lon": 13.4459037,
   "tags": {
-    "alt_name": "Trinkwassernotbrunnen",
-    "loc_name": "Plumpe",
+    "addr:full": "Taborstraße 7",
+    "check_date": "2018-05-19",
+    "image": "File:Str.brunnen Kreuzberg Taborstr.jpg",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
-    "pump": "manual",
-    "pump:style": "modern",
-    "pump:type": "beam_pump",
+    "note": "Keine sichtbare Pumpe an diesem Standort vorhanden, nur noch ein in das Straßenpflaster eingelassener Tränkstein (Stand 05/2018)",
+    "operator": "Land",
+    "pump": "no",
     "ref": "53",
-    "water_well": "pump"
+    "start_date": "1964"
   }
 },
 {
@@ -6545,7 +6757,7 @@
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:status": "ok",
-    "pump:style": "Schliephacke",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "133",
     "water_well": "pump",
@@ -6611,15 +6823,22 @@
   "lat": 52.4961887,
   "lon": 13.4343841,
   "tags": {
+    "addr:full": "Forster Straße 58",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E;blue",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Forster Str.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
-    "pump:status": "missing_beam",
-    "pump:style": "modern",
+    "pump:status": "ok",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "21",
+    "start_date": "1980",
     "water_well": "pump"
   }
 },
@@ -6687,7 +6906,13 @@
   "lat": 52.5193287,
   "lon": 13.4471091,
   "tags": {
-    "man_made": "water_well"
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -6749,35 +6974,48 @@
 {
   "type": "node",
   "id": 1280254336,
-  "lat": 52.5835427,
-  "lon": 13.3986160,
+  "lat": 52.5835280,
+  "lon": 13.3985882,
   "tags": {
+    "addr:full": "Waldstraße 31",
     "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 18 Niederschönhsn Waldstraße (8).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa018",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Pankow",
     "pump:type": "beam_pump",
     "ref": "18",
-    "water_well": "pump"
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
   "type": "node",
   "id": 1280254412,
-  "lat": 52.5859508,
-  "lon": 13.3972646,
+  "lat": 52.5859384,
+  "lon": 13.3972503,
   "tags": {
+    "addr:full": "Eichenstraße 57",
     "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen 19 Niederschönhausen Eichenstraße (3).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa019",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Krause",
     "pump:type": "beam_pump",
     "ref": "19",
-    "water_well": "pump"
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -6971,16 +7209,18 @@
 {
   "type": "node",
   "id": 1309334851,
-  "lat": 52.4993016,
-  "lon": 13.3228035,
+  "lat": 52.4994012,
+  "lon": 13.3228149,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:style": "Schliephacke",
     "pump:type": "beam_pump",
+    "ref": "84",
     "water_well": "pump"
   }
 },
@@ -7007,16 +7247,12 @@
   "lat": 52.4782620,
   "lon": 13.3813783,
   "tags": {
-    "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
-    "loc_name": "Plumpe",
+    "check_date": "2018-04-25",
+    "description": "Verschlossener Straßenbrunnen",
+    "image": "File:Str.brunnen Verschluss Tempelhof Paradestraße Bundesring.jpg",
     "man_made": "water_well",
-    "name": "Berliner Straßenbrunnen",
-    "pump": "manual",
-    "pump:style": "modern",
-    "pump:type": "beam_pump",
-    "ref": "2",
-    "water_well": "pump"
+    "official_ref": "2",
+    "pump": "no"
   }
 },
 {
@@ -7078,11 +7314,15 @@
   "lon": 13.4370862,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2016-07-24",
+    "drinking_water:legal": "no",
+    "image": "File:Wasserpumpealtbritz-berlin - 2.jpeg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:status": "ok",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "170",
     "water_well": "pump"
@@ -7197,15 +7437,22 @@
   "lat": 52.4982308,
   "lon": 13.4209430,
   "tags": {
+    "addr:full": "Reichenberger Straße 25",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Reichenberger Str 25.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:status": "ok",
+    "pump:style": "Borsig",
     "pump:type": "beam_pump",
     "ref": "39",
+    "start_date": "1972",
     "water_well": "pump"
   }
 },
@@ -7879,19 +8126,24 @@
 {
   "type": "node",
   "id": 1476114616,
-  "lat": 52.4996121,
-  "lon": 13.4142386,
+  "lat": 52.4995774,
+  "lon": 13.4142393,
   "tags": {
+    "addr:full": "Erkelenzdamm 23",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2018-05-20",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Erkelenzdamm 23.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
     "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "14",
+    "start_date": "1953",
     "water_well": "pump"
   }
 },
@@ -8007,69 +8259,96 @@
 {
   "type": "node",
   "id": 1492215361,
-  "lat": 52.5628690,
-  "lon": 13.4096721,
+  "lat": 52.5627237,
+  "lon": 13.4099973,
   "tags": {
+    "addr:full": "Masurenstraße 8 / Mühlenstraße",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2017-11-22",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen7 Pankow Masurenstraße (2).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa007",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:status": "ok",
+    "pump:style": "Pankow",
     "pump:type": "beam_pump",
     "ref": "7",
-    "water_well": "pump"
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
   "type": "node",
   "id": 1492215362,
-  "lat": 52.5630292,
-  "lon": 13.4045521,
+  "lat": 52.5630718,
+  "lon": 13.4045040,
   "tags": {
+    "addr:full": "Florapromenade 18",
     "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen40 in Pankow Florapromenade (2).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa040",
+    "operator": "Land",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Krause",
     "pump:type": "beam_pump",
     "ref": "40",
-    "water_well": "pump"
+    "start_date": "~1925",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
   "type": "node",
   "id": 1492215370,
-  "lat": 52.5667508,
-  "lon": 13.3965121,
+  "lat": 52.5667424,
+  "lon": 13.3965201,
   "tags": {
+    "addr:full": "Pichelswerderstraße 12 / Wollankstraße",
     "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen9 Pankow Pichelswerder (1).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa009",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "9",
-    "water_well": "pump"
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
   "type": "node",
   "id": 1492215453,
-  "lat": 52.5693466,
-  "lon": 13.3979209,
+  "lat": 52.5693481,
+  "lon": 13.3978597,
   "tags": {
+    "addr:full": "Am Bürgerpark (Wilhelm-Kuhr-Straße)",
     "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen 29 Kuhrstraße Pankow (2).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa028",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Pankow",
     "pump:type": "beam_pump",
     "ref": "28",
-    "water_well": "pump"
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -8493,9 +8772,9 @@
   "lon": 13.3839962,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water": "no",
     "loc_name": "Plumpe",
     "man_made": "water_well",
-    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "historic",
     "pump:type": "beam_pump",
@@ -8664,13 +8943,13 @@
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
-    "official_ref": "Ws001",
+    "official_ref": "STRB03Ws001",
     "operator": "Bund",
     "pump": "manual",
     "pump:style": "Krause",
     "pump:type": "beam_pump",
     "ref": "1",
-    "start_date": "1960",
+    "start_date": "~1960",
     "water_well": "pump",
     "wheelchair": "yes",
     "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
@@ -9018,8 +9297,8 @@
 {
   "type": "node",
   "id": 1666709521,
-  "lat": 52.4480523,
-  "lon": 13.3496398,
+  "lat": 52.4486180,
+  "lon": 13.3496076,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
@@ -9035,37 +9314,49 @@
 {
   "type": "node",
   "id": 1668250638,
-  "lat": 52.5334878,
-  "lon": 13.4369137,
+  "lat": 52.5334805,
+  "lon": 13.4369577,
   "tags": {
+    "addr:full": "Bötzowstraße 49",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "drinking_water:legal": "no",
+    "image": "File:Arnswalderplatzberlin - 2.jpeg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb024",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "24",
-    "water_well": "pump"
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
   "type": "node",
   "id": 1668251364,
-  "lat": 52.5310296,
-  "lon": 13.4390872,
+  "lat": 52.5308779,
+  "lon": 13.4390887,
   "tags": {
+    "addr:full": "Kniprodestraße 118",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen39 PrBg Kniprode-Pasteur (3).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb039",
+    "operator": "Bund",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "39",
-    "water_well": "pump"
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -9129,18 +9420,24 @@
 {
   "type": "node",
   "id": 1683557616,
-  "lat": 52.5436732,
-  "lon": 13.4546226,
+  "lat": 52.5437164,
+  "lon": 13.4546194,
   "tags": {
+    "addr:full": "Gürtelstraße 25",
     "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen40 PrBg Gürtelstraße (10).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb040",
+    "operator": "Bund",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "40",
-    "water_well": "pump"
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -9174,14 +9471,21 @@
   "lat": 52.5003274,
   "lon": 13.4432108,
   "tags": {
+    "addr:full": "Schlesische Straße 6",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Schlesische Str.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
+    "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "54",
+    "start_date": "1972",
     "water_well": "pump"
   }
 },
@@ -9214,18 +9518,25 @@
 {
   "type": "node",
   "id": 1723603488,
-  "lat": 52.5497548,
-  "lon": 13.4042661,
+  "lat": 52.5497369,
+  "lon": 13.4042681,
   "tags": {
+    "addr:full": "Malmöer Straße 29",
     "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 6 PrBg Malmöer (1).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb006",
+    "operator": "Bund",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "6",
-    "water_well": "pump"
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -9430,7 +9741,6 @@
     "drinking_water": "no",
     "loc_name": "Plumpe",
     "man_made": "water_well",
-    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -9441,18 +9751,25 @@
 {
   "type": "node",
   "id": 1769967993,
-  "lat": 52.5442703,
-  "lon": 13.4122221,
+  "lat": 52.5442670,
+  "lon": 13.4122420,
   "tags": {
+    "addr:full": "Schönhauser Allee 134",
     "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen28 PrBg SchönhauserAllee (5).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb028",
+    "operator": "Bund",
     "pump": "manual",
     "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "28",
-    "water_well": "pump"
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -9925,8 +10242,11 @@
   "lat": 52.4204448,
   "lon": 13.4907867,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -9940,8 +10260,11 @@
   "lat": 52.4206701,
   "lon": 13.4916209,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "historic",
     "pump:type": "beam_pump",
@@ -9955,7 +10278,10 @@
   "lat": 52.4141356,
   "lon": 13.4789707,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -9969,8 +10295,11 @@
   "lat": 52.4181685,
   "lon": 13.4785892,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -9993,7 +10322,10 @@
   "lat": 52.4184867,
   "lon": 13.4865156,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10025,7 +10357,10 @@
   "lat": 52.4244511,
   "lon": 13.4824330,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10039,7 +10374,10 @@
   "lat": 52.4345436,
   "lon": 13.4768517,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10053,7 +10391,10 @@
   "lat": 52.4393591,
   "lon": 13.4781486,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10100,19 +10441,25 @@
 {
   "type": "node",
   "id": 1907418098,
-  "lat": 52.5555522,
-  "lon": 13.4396137,
+  "lat": 52.5555277,
+  "lon": 13.4395408,
   "tags": {
+    "addr:full": "Hamburger Platz 10",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen21 Weißensee HamburgerPlatz (1).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws021",
+    "operator": "Bund",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "21",
-    "water_well": "pump"
+    "start_date": "~1965",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -10138,7 +10485,10 @@
   "lat": 52.4277910,
   "lon": 13.4739344,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10152,7 +10502,10 @@
   "lat": 52.4308401,
   "lon": 13.4789226,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10166,12 +10519,21 @@
   "lat": 52.4947109,
   "lon": 13.4396640,
   "tags": {
+    "addr:full": "Wiener Straße 50",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Wiener Str 50.jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
     "pump": "manual",
-    "pump:status": "missing_beam",
-    "pump:style": "modern",
+    "pump:status": "ok",
+    "pump:style": "Borsig",
     "pump:type": "beam_pump",
     "ref": "51",
+    "start_date": "1978",
     "water_well": "pump"
   }
 },
@@ -10251,7 +10613,10 @@
   "lat": 52.4214699,
   "lon": 13.4944873,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10265,7 +10630,10 @@
   "lat": 52.4248395,
   "lon": 13.4955029,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10279,7 +10647,10 @@
   "lat": 52.4232719,
   "lon": 13.4707956,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10293,8 +10664,11 @@
   "lat": 52.4210625,
   "lon": 13.4273904,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "colour": "#35412E",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10308,7 +10682,10 @@
   "lat": 52.4240337,
   "lon": 13.4217525,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10322,7 +10699,10 @@
   "lat": 52.4383811,
   "lon": 13.4842895,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10336,7 +10716,10 @@
   "lat": 52.4105563,
   "lon": 13.4936442,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10350,7 +10733,10 @@
   "lat": 52.4636274,
   "lon": 13.4708351,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10370,7 +10756,7 @@
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "Schliephacke",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "111",
     "water_well": "pump",
@@ -10406,7 +10792,10 @@
   "lat": 52.4368092,
   "lon": 13.4726014,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10449,7 +10838,10 @@
   "lat": 52.4241342,
   "lon": 13.4893440,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10463,7 +10855,10 @@
   "lat": 52.4333619,
   "lon": 13.4862423,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10477,7 +10872,10 @@
   "lat": 52.4143980,
   "lon": 13.4937310,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10491,7 +10889,10 @@
   "lat": 52.4157808,
   "lon": 13.4835156,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10530,7 +10931,7 @@
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:status": "ok",
-    "pump:style": "Schliephacke",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "46",
     "water_well": "pump",
@@ -10543,7 +10944,10 @@
   "lat": 52.4723020,
   "lon": 13.4314297,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10574,7 +10978,10 @@
   "lat": 52.5005945,
   "lon": 13.3870286,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:type": "beam_pump",
     "ref": "46",
@@ -10587,12 +10994,21 @@
   "lat": 52.5685270,
   "lon": 13.4017602,
   "tags": {
+    "addr:full": "Neue Schönholzer Straße 3",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen10 Pankow NeueSchönholzer (1).jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa010",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Pankow",
     "pump:type": "beam_pump",
     "ref": "10",
-    "water_well": "pump"
+    "start_date": "~1925",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -10601,8 +11017,11 @@
   "lat": 52.4094794,
   "lon": 13.5058656,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:type": "beam_pump",
     "ref": "208",
@@ -10615,7 +11034,10 @@
   "lat": 52.4122670,
   "lon": 13.4850511,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10629,7 +11051,10 @@
   "lat": 52.4399971,
   "lon": 13.4424801,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10643,7 +11068,10 @@
   "lat": 52.4287425,
   "lon": 13.4697021,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10657,7 +11085,10 @@
   "lat": 52.4226417,
   "lon": 13.4661974,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10671,7 +11102,10 @@
   "lat": 52.4386442,
   "lon": 13.4396454,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10723,7 +11157,10 @@
   "lat": 52.4292784,
   "lon": 13.4873410,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10787,7 +11224,10 @@
   "lat": 52.4201220,
   "lon": 13.5034069,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:type": "beam_pump",
     "ref": "209",
@@ -10800,7 +11240,10 @@
   "lat": 52.4232545,
   "lon": 13.5014657,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10830,7 +11273,10 @@
   "lat": 52.4246169,
   "lon": 13.4674444,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:type": "beam_pump",
     "ref": "94",
@@ -10843,8 +11289,11 @@
   "lat": 52.4284256,
   "lon": 13.4818168,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10858,7 +11307,10 @@
   "lat": 52.4181106,
   "lon": 13.4926987,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:type": "beam_pump",
     "ref": "210",
@@ -10871,8 +11323,11 @@
   "lat": 52.4089560,
   "lon": 13.4877552,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:type": "beam_pump",
     "ref": "215",
@@ -10885,7 +11340,10 @@
   "lat": 52.4062452,
   "lon": 13.4833730,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -10899,10 +11357,15 @@
   "lat": 52.4966154,
   "lon": 13.3301558,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Wilmersdorf Meierottostraße Wasserpumpe.jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "59",
     "water_well": "pump"
@@ -10914,7 +11377,10 @@
   "lat": 52.4301798,
   "lon": 13.4577624,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:type": "beam_pump",
     "ref": "72",
@@ -10927,8 +11393,11 @@
   "lat": 52.4206298,
   "lon": 13.4741644,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:type": "beam_pump",
     "ref": "79",
@@ -10955,11 +11424,18 @@
 {
   "type": "node",
   "id": 2097918155,
-  "lat": 52.5298181,
-  "lon": 13.5549009,
+  "lat": 52.5298588,
+  "lon": 13.5544132,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "38",
+    "water_well": "pump"
   }
 },
 {
@@ -11086,7 +11562,7 @@
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "Schliephacke",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "23",
     "water_well": "pump",
@@ -11172,7 +11648,15 @@
   "lat": 52.4683676,
   "lon": 13.4668697,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "15",
     "water_well": "pump"
   }
 },
@@ -11332,19 +11816,24 @@
 {
   "type": "node",
   "id": 2297859223,
-  "lat": 52.5723764,
-  "lon": 13.4152246,
+  "lat": 52.5723741,
+  "lon": 13.4152164,
   "tags": {
+    "addr:full": "Damerowstraße 66",
     "alt_name": "Trinkwassernotbrunnen",
-    "image": "http://commons.wikimedia.org/wiki/File:Berlin_Pumpe_39.jpg",
+    "image": "File:Berlin Pumpe 39.jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa039",
+    "operator": "Land",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Krause",
     "pump:type": "beam_pump",
     "ref": "39",
-    "water_well": "pump"
+    "start_date": "~1925",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -11403,17 +11892,6 @@
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "water_well": "pump"
-  }
-},
-{
-  "type": "node",
-  "id": 2443178930,
-  "lat": 52.5351145,
-  "lon": 13.2738719,
-  "tags": {
-    "amenity": "fountain",
-    "man_made": "water_well",
-    "name": "Otter-Brunnen"
   }
 },
 {
@@ -11526,7 +12004,10 @@
   "lat": 52.6110830,
   "lon": 13.2166942,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:type": "beam_pump",
     "water_well": "pump"
@@ -11538,10 +12019,14 @@
   "lat": 52.5069656,
   "lon": 13.3279449,
   "tags": {
-    "description:de": "Trinkwassernotbrunnen",
+    "alt_name": "Trinkwassernotbrunnen",
+    "colour": "green;blue",
+    "image": "File:Charlottenburg Fasanenstraße Wasserpumpe-001.jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "44",
     "water_well": "pump"
@@ -11553,10 +12038,12 @@
   "lat": 52.4880970,
   "lon": 13.3494774,
   "tags": {
-    "description": "Trinkwassernotbrunnen",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "modern",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "6",
     "water_well": "pump"
@@ -11682,8 +12169,14 @@
   "lat": 52.4599326,
   "lon": 13.5337315,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "18",
     "water_well": "pump"
   }
 },
@@ -11707,10 +12200,12 @@
 {
   "type": "node",
   "id": 2856148918,
-  "lat": 52.5420135,
-  "lon": 13.2102078,
+  "lat": 52.5419892,
+  "lon": 13.2102231,
   "tags": {
-    "man_made": "water_well"
+    "historic": "water_well",
+    "man_made": "water_well",
+    "pump": "no"
   }
 },
 {
@@ -11719,8 +12214,15 @@
   "lat": 52.4954278,
   "lon": 13.3651839,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "15",
+    "water_well": "pump"
   }
 },
 {
@@ -11747,6 +12249,7 @@
   "lon": 13.3557487,
   "tags": {
     "man_made": "water_well",
+    "playground": "water",
     "pump": "manual",
     "water_well": "pump"
   }
@@ -11766,13 +12269,13 @@
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
-    "official_ref": "Ws026",
+    "official_ref": "STRB03Ws026",
     "operator": "Bund",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "26",
-    "start_date": "1990",
+    "start_date": "~1990",
     "water_well": "pump",
     "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
@@ -11861,14 +12364,24 @@
 {
   "type": "node",
   "id": 3017814485,
-  "lat": 52.4956447,
-  "lon": 13.4231619,
+  "lat": 52.4955747,
+  "lon": 13.4232199,
   "tags": {
-    "drinking_water": "no",
+    "addr:full": "Paul-Lincke-Ufer, ggü. 37",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Paul-Lincke-Ufer 37.jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:status": "broken",
+    "pump:style": "modern",
     "pump:type": "beam_pump",
+    "ref": "62",
+    "start_date": "2004",
     "water_well": "pump"
   }
 },
@@ -11878,7 +12391,16 @@
   "lat": 52.5414084,
   "lon": 13.3947119,
   "tags": {
-    "man_made": "water_well"
+    "alt_name": "Trinkwassernotbrunnen",
+    "colour": "gray",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "263",
+    "water_well": "pump"
   }
 },
 {
@@ -11887,7 +12409,9 @@
   "lat": 52.5409186,
   "lon": 13.2122566,
   "tags": {
-    "man_made": "water_well"
+    "historic": "water_well",
+    "man_made": "water_well",
+    "pump": "no"
   }
 },
 {
@@ -11975,8 +12499,11 @@
   "lat": 52.4273209,
   "lon": 13.4625261,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -12008,8 +12535,11 @@
   "lat": 52.4266360,
   "lon": 13.4547486,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
@@ -12023,9 +12553,17 @@
   "lat": 52.5702185,
   "lon": 13.3086397,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen80-ReinDorf-Zobeltitzstr (1).jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "80",
+    "water_well": "pump"
   }
 },
 {
@@ -12034,9 +12572,15 @@
   "lat": 52.5746278,
   "lon": 13.3129116,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -12045,10 +12589,16 @@
   "lat": 52.5735370,
   "lon": 13.3080246,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "ref": "201"
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "201",
+    "water_well": "pump"
   }
 },
 {
@@ -12057,9 +12607,15 @@
   "lat": 52.5771203,
   "lon": 13.3074881,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "157",
+    "water_well": "pump"
   }
 },
 {
@@ -12068,9 +12624,15 @@
   "lat": 52.5678335,
   "lon": 13.3298998,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "2",
+    "water_well": "pump"
   }
 },
 {
@@ -12079,9 +12641,16 @@
   "lat": 52.5695689,
   "lon": 13.3266315,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "198",
+    "water_well": "pump"
   }
 },
 {
@@ -12090,9 +12659,15 @@
   "lat": 52.5709905,
   "lon": 13.3179231,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -12101,9 +12676,14 @@
   "lat": 52.5714398,
   "lon": 13.3126220,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -12151,12 +12731,20 @@
 {
   "type": "node",
   "id": 3332243436,
-  "lat": 52.5769994,
-  "lon": 13.2844850,
+  "lat": 52.5770198,
+  "lon": 13.2844798,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen69-Tegel-Sterkrader-Bottroper (2).jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "69",
+    "water_well": "pump"
   }
 },
 {
@@ -12165,9 +12753,15 @@
   "lat": 52.5799954,
   "lon": 13.2921590,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "197",
     "water_well": "pump"
   }
 },
@@ -12177,8 +12771,14 @@
   "lat": 52.5684482,
   "lon": 13.3188238,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -12205,9 +12805,14 @@
   "lat": 52.5662068,
   "lon": 13.3202943,
   "tags": {
-    "historic": "yes",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -12250,9 +12855,15 @@
   "lat": 52.5637630,
   "lon": 13.3414457,
   "tags": {
-    "historic": "yes",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "Rümmler",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -12334,25 +12945,38 @@
   "lat": 52.4932957,
   "lon": 13.3625761,
   "tags": {
-    "man_made": "water_well",
-    "pump": "manual"
-  }
-},
-{
-  "type": "node",
-  "id": 3471231718,
-  "lat": 52.5478659,
-  "lon": 13.4255034,
-  "tags": {
     "alt_name": "Trinkwassernotbrunnen",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 3471231718,
+  "lat": 52.5478735,
+  "lon": 13.4254839,
+  "tags": {
+    "addr:full": "Dunckerstraße 33",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen46 PrBg Dunckerstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb046",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
     "pump:type": "beam_pump",
     "ref": "46",
-    "water_well": "pump"
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -12361,14 +12985,21 @@
   "lat": 52.5440642,
   "lon": 13.4236344,
   "tags": {
+    "addr:full": "Stargarder Straße 52",
     "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen32 PrBg StargarderStraße (2).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb032",
+    "operator": "Bund",
     "pump": "manual",
+    "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "32",
-    "water_well": "pump"
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -12445,7 +13076,9 @@
   "lat": 52.4239595,
   "lon": 13.2332522,
   "tags": {
-    "man_made": "water_well"
+    "historic": "water_well",
+    "man_made": "water_well",
+    "pump": "no"
   }
 },
 {
@@ -12454,8 +13087,10 @@
   "lat": 52.4241955,
   "lon": 13.2337079,
   "tags": {
+    "historic": "water_well",
     "man_made": "water_well",
-    "name": "6A"
+    "pump": "no",
+    "ref": "6A"
   }
 },
 {
@@ -12533,21 +13168,28 @@
   "lat": 52.5567840,
   "lon": 13.3933192,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "96",
     "water_well": "pump"
   }
 },
 {
   "type": "node",
   "id": 3583065493,
-  "lat": 52.5004973,
-  "lon": 13.4183302,
+  "lat": 52.5005137,
+  "lon": 13.4183411,
   "tags": {
-    "alt_name": "Trinkwassernotbrunnen",
-    "loc_name": "Plumpe",
+    "colour": "blue",
     "man_made": "water_well",
-    "name": "Berliner Straßenbrunnen",
+    "playground": "water",
     "pump": "manual",
+    "pump:status": "broken",
     "pump:type": "beam_pump",
     "water_well": "pump"
   }
@@ -12575,16 +13217,22 @@
   "lat": 52.5520114,
   "lon": 13.4362909,
   "tags": {
+    "addr:full": "Streustraße 79",
     "alt_name": "Trinkwassernotbrunnen",
     "colour": "#35412E",
+    "image": "File:Straßenbrunnen19 Weißensee Streustraße (3).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws019",
+    "operator": "Bund",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
+    "ref": "19",
+    "start_date": "~1970",
     "water_well": "pump",
-    "wikipedia": "de:Liste der Straßenbrunnen in Berlin"
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -12641,7 +13289,22 @@
   "lat": 52.4932785,
   "lon": 13.4396416,
   "tags": {
-    "man_made": "water_well"
+    "addr:full": "Ratiborstraße 15",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Ratiborstr.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "96",
+    "start_date": "1988",
+    "water_well": "pump"
   }
 },
 {
@@ -12759,28 +13422,68 @@
 {
   "type": "node",
   "id": 3812785459,
-  "lat": 52.5335904,
-  "lon": 13.4331213,
+  "lat": 52.5336009,
+  "lon": 13.4331143,
   "tags": {
-    "man_made": "water_well"
+    "addr:full": "Pasteurstraße 11-13",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen20 PrBg Pasteur14 Ecke Esmarch (4).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb020",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "20",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
   "type": "node",
   "id": 3812807357,
-  "lat": 52.5316077,
-  "lon": 13.4310382,
+  "lat": 52.5315323,
+  "lon": 13.4310329,
   "tags": {
-    "man_made": "water_well"
+    "addr:full": "Esmarchstraße 2",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen08 PrBg Esmarch2 (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb008",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "8",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
   "type": "node",
   "id": 3827213283,
-  "lat": 52.5895631,
-  "lon": 13.2745931,
+  "lat": 52.5896107,
+  "lon": 13.2745870,
   "tags": {
-    "man_made": "water_well"
+    "alt_name": "Trinkwassernotbrunnen",
+    "colour": "#35412E",
+    "image": "File:Straßenbrunnen106-Tegel-Wilkestraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "106",
+    "water_well": "pump"
   }
 },
 {
@@ -12841,7 +13544,13 @@
   "lat": 52.5251867,
   "lon": 13.4525515,
   "tags": {
-    "man_made": "water_well"
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -12850,8 +13559,14 @@
   "lat": 52.5168006,
   "lon": 13.4610474,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "ref": "Nr. 40"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:type": "beam_pump",
+    "ref": "40",
+    "water_well": "pump"
   }
 },
 {
@@ -12954,7 +13669,13 @@
   "lat": 52.4923095,
   "lon": 13.4428510,
   "tags": {
-    "man_made": "water_well"
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -13094,10 +13815,15 @@
   "lat": 52.5368275,
   "lon": 13.3873007,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "Lauchhammer"
+    "pump:style": "Lauchhammer",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -13137,12 +13863,18 @@
 {
   "type": "node",
   "id": 3964014163,
-  "lat": 52.5244487,
-  "lon": 13.4282032,
+  "lat": 52.5244829,
+  "lon": 13.4282801,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "ref": "17"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:type": "beam_pump",
+    "ref": "17",
+    "water_well": "pump"
   }
 },
 {
@@ -13151,9 +13883,17 @@
   "lat": 52.5178128,
   "lon": 13.2959286,
   "tags": {
-    "colour": "green",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-04-02",
+    "colour": "#35412E",
+    "image": "File:Charlottenburg Schloßstraße 3 Wasserpumpe-001.jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "Lauchhammer",
+    "pump:type": "beam_pump",
     "ref": "21",
     "water_well": "pump"
   }
@@ -13182,8 +13922,15 @@
   "lat": 52.5608064,
   "lon": 13.3763469,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "164",
+    "water_well": "pump"
   }
 },
 {
@@ -13192,8 +13939,18 @@
   "lat": 52.5689314,
   "lon": 13.3787599,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen156-Reinickendf-Hausotterstraße (3).jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "156",
+    "water_well": "pump"
   }
 },
 {
@@ -13202,8 +13959,15 @@
   "lat": 52.4905901,
   "lon": 13.4517567,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "pump": "manual"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "3",
+    "water_well": "pump"
   }
 },
 {
@@ -13257,37 +14021,49 @@
 {
   "type": "node",
   "id": 4187141590,
-  "lat": 52.6187539,
-  "lon": 13.4308038,
+  "lat": 52.6187239,
+  "lon": 13.4307699,
   "tags": {
+    "addr:full": "Schönerlinder Straße / Straße 36",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen35 FrzBuchholz Schönerlinder Straße 36 (3).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa035",
+    "operator": "Land",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "35",
-    "water_well": "pump"
+    "start_date": "~1975",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
   "type": "node",
   "id": 4190802589,
-  "lat": 52.6128682,
-  "lon": 13.4334123,
+  "lat": 52.6129688,
+  "lon": 13.4332331,
   "tags": {
+    "addr:full": "Schönerlinder Straße / Bucher Straße",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen36 FrzBuchholz Schönerlinder Straße (5).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa036",
+    "operator": "Bund",
     "pump": "manual",
     "pump:style": "modern",
     "pump:type": "beam_pump",
     "ref": "36",
-    "water_well": "pump"
+    "start_date": "~1975",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -13319,10 +14095,19 @@
 {
   "type": "node",
   "id": 4221464093,
-  "lat": 52.4355521,
-  "lon": 13.5536119,
+  "lat": 52.4350727,
+  "lon": 13.5538519,
   "tags": {
-    "man_made": "water_well"
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "52",
+    "water_well": "pump"
   }
 },
 {
@@ -13397,37 +14182,53 @@
 {
   "type": "node",
   "id": 4278102430,
-  "lat": 52.5290391,
-  "lon": 13.4490460,
+  "lat": 52.5290508,
+  "lon": 13.4490164,
   "tags": {
+    "addr:full": "Conrad-Blenkle-Straße 61",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2016",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen33 PrenzlBerg Conrad-Blenkle-Straße 61 (1).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb033",
+    "operator": "Bund",
     "pump": "manual",
     "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
-    "water_well": "pump"
+    "ref": "33",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
   "type": "node",
   "id": 4278122748,
-  "lat": 52.5320941,
-  "lon": 13.4447796,
+  "lat": 52.5320833,
+  "lon": 13.4447269,
   "tags": {
+    "addr:full": "Erich-Boltze-Straße 13",
     "alt_name": "Trinkwassernotbrunnen",
-    "drinking_water": "no",
+    "check_date": "2016",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen35 PrenzlBerg Erich-Boltze-Straße 13 (3).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb035",
+    "operator": "Bund",
     "pump": "manual",
     "pump:status": "ok",
     "pump:style": "modern",
     "pump:type": "beam_pump",
-    "water_well": "pump"
+    "ref": "35",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -13444,7 +14245,7 @@
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "Schliephacke",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "101",
     "water_well": "pump",
@@ -13492,6 +14293,7 @@
   "lon": 13.5956888,
   "tags": {
     "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water": "no",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
@@ -13508,9 +14310,14 @@
   "lat": 52.5230275,
   "lon": 13.5562048,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
     "ref": "37",
     "water_well": "pump"
   }
@@ -13521,7 +14328,14 @@
   "lat": 52.5197874,
   "lon": 13.3517776,
   "tags": {
-    "man_made": "water_well"
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -13530,7 +14344,14 @@
   "lat": 52.5219041,
   "lon": 13.5449677,
   "tags": {
-    "man_made": "water_well"
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -13551,8 +14372,10 @@
   "lat": 52.5558888,
   "lon": 13.3816641,
   "tags": {
-    "description": "Trinkwassernotbrunnen",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:status": "ok",
     "pump:style": "modern",
@@ -13567,9 +14390,13 @@
   "lat": 52.5380209,
   "lon": 13.5527286,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
     "ref": "55",
     "water_well": "pump"
   }
@@ -13580,9 +14407,12 @@
   "lat": 52.5362021,
   "lon": 13.5521261,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:type": "beam_pump",
     "ref": "28",
     "water_well": "pump"
   }
@@ -13593,10 +14423,14 @@
   "lat": 52.5105105,
   "lon": 13.4106570,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
     "drinking_water": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:style": "modern",
+    "pump:type": "beam_pump",
     "ref": "23",
     "water_well": "pump"
   }
@@ -13607,10 +14441,15 @@
   "lat": 52.4921422,
   "lon": 13.3077920,
   "tags": {
-    "historic": "yes",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "historic"
+    "pump:style": "Rümmler",
+    "pump:type": "beam_pump",
+    "ref": "61",
+    "water_well": "pump"
   }
 },
 {
@@ -13642,11 +14481,15 @@
 {
   "type": "node",
   "id": 4582639877,
-  "lat": 52.4626134,
-  "lon": 13.5703140,
+  "lat": 52.4625896,
+  "lon": 13.5703148,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:type": "beam_pump",
     "ref": "20",
     "water_well": "pump"
   }
@@ -13657,9 +14500,15 @@
   "lat": 52.4197363,
   "lon": 13.7222679,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "41",
     "water_well": "pump"
   }
 },
@@ -13686,15 +14535,6 @@
   "lat": 52.5579675,
   "lon": 13.3894624,
   "tags": {
-    "man_made": "water_well"
-  }
-},
-{
-  "type": "node",
-  "id": 4695297289,
-  "lat": 52.5431105,
-  "lon": 13.4192915,
-  "tags": {
     "alt_name": "Trinkwassernotbrunnen",
     "loc_name": "Plumpe",
     "man_made": "water_well",
@@ -13703,6 +14543,30 @@
     "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 4695297289,
+  "lat": 52.5431081,
+  "lon": 13.4192968,
+  "tags": {
+    "addr:full": "Helmholtzplatz",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Wasserpumpehelmholtzplatznr16 - 1.jpeg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb016",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Lauchhammer",
+    "pump:type": "beam_pump",
+    "ref": "16",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -13766,7 +14630,7 @@
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "Schliephacke",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "water_well": "pump"
   }
@@ -13782,7 +14646,7 @@
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "Schliephacke",
+    "pump:style": "Rümmler",
     "pump:type": "beam_pump",
     "ref": "10",
     "water_well": "pump"
@@ -13794,9 +14658,14 @@
   "lat": 52.5569696,
   "lon": 13.3872552,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "source": "survey"
+    "pump:style": "Lauchhammer",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
   }
 },
 {
@@ -13922,14 +14791,25 @@
 {
   "type": "node",
   "id": 4853308271,
-  "lat": 52.5615048,
-  "lon": 13.4047405,
+  "lat": 52.5614458,
+  "lon": 13.4044057,
   "tags": {
+    "addr:full": "Maximilianstraße 25",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 41 Pankow Maximilianstraße (3).jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa041",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "modern",
     "pump:type": "beam_pump",
-    "water_well": "pump"
+    "ref": "41",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -13961,11 +14841,18 @@
 {
   "type": "node",
   "id": 4877163230,
-  "lat": 52.6204032,
-  "lon": 13.3558438,
+  "lat": 52.6203804,
+  "lon": 13.3558204,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen42-Lübars-AltLübars (1).jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "42",
     "water_well": "pump"
   }
 },
@@ -13981,12 +14868,15 @@
 {
   "type": "node",
   "id": 4893453207,
-  "lat": 52.4509599,
-  "lon": 13.6248342,
+  "lat": 52.4509662,
+  "lon": 13.6248593,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:style": "Krause",
     "pump:type": "beam_pump",
     "water_well": "pump"
   }
@@ -13997,10 +14887,16 @@
   "lat": 52.5699116,
   "lon": 13.3791080,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen155-ReinDorf-Winterstraße (1).jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "modern",
     "pump:type": "beam_pump",
+    "ref": "155",
     "water_well": "pump"
   }
 },
@@ -14010,23 +14906,37 @@
   "lat": 52.5159230,
   "lon": 13.3317657,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Charlottenburg Gutenbergstraße Wasserpumpe.jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
-    "ref": "84"
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "84",
+    "water_well": "pump"
   }
 },
 {
   "type": "node",
   "id": 4973886434,
-  "lat": 52.4482824,
-  "lon": 13.2565165,
+  "lat": 52.4483722,
+  "lon": 13.2567134,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "colour": "green;blue",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
     "pump:status": "ok",
     "pump:style": "modern",
-    "pump:type": "beam_pump"
+    "pump:type": "beam_pump",
+    "ref": "2",
+    "water_well": "pump"
   }
 },
 {
@@ -14122,15 +15032,24 @@
   "lat": 52.5375272,
   "lon": 13.4173396,
   "tags": {
+    "addr:full": "Husemannstraße 11",
     "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2017",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen27 PrBg Humannstraße (1).jpg",
     "loc_name": "Plumpe",
     "man_made": "water_well",
     "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb027",
+    "operator": "Bund",
     "pump": "manual",
     "pump:status": "ok",
+    "pump:style": "Lauchhammer",
     "pump:type": "beam_pump",
     "ref": "27",
-    "water_well": "pump"
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -14318,8 +15237,12 @@
   "lat": 52.5205400,
   "lon": 13.4177392,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:type": "beam_pump",
     "ref": "27",
     "water_well": "pump"
   }
@@ -14347,16 +15270,6 @@
     "start_date": "2015",
     "water_well": "pump",
     "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Lichtenberg"
-  }
-},
-{
-  "type": "node",
-  "id": 5224741433,
-  "lat": 52.3946124,
-  "lon": 13.6773979,
-  "tags": {
-    "man_made": "water_well",
-    "operator": "Berliner Wasserbetriebe"
   }
 },
 {
@@ -14404,18 +15317,25 @@
 {
   "type": "node",
   "id": 5335782528,
-  "lat": 52.5513030,
-  "lon": 13.4104087,
+  "lat": 52.5513179,
+  "lon": 13.4103842,
   "tags": {
-    "drinking_water": "yes",
-    "legal": "no",
+    "addr:full": "Seelower Straße 5",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen4 PrBg Arnimplatz SeelowerStraße (4).jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb004",
+    "operator": "Bund",
     "pump": "manual",
-    "pump:style": "historic",
+    "pump:style": "Krause",
     "pump:type": "beam_pump",
     "ref": "4",
-    "start_date": "1930",
-    "water_well": "pump"
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
   }
 },
 {
@@ -14424,10 +15344,20 @@
   "lat": 52.4799232,
   "lon": 13.3435077,
   "tags": {
-    "drinking_water": "no",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-04-25",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Schoeneberg Voßbergstraße.jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "pump:type": "beam_pump"
+    "pump:status": "ok",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "23",
+    "water_well": "pump"
   }
 },
 {
@@ -14452,9 +15382,16 @@
   "lat": 52.4376845,
   "lon": 13.3577269,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "colour": "green;blue",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
-    "ref": "29"
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "29",
+    "water_well": "pump"
   }
 },
 {
@@ -14536,12 +15473,21 @@
 {
   "type": "node",
   "id": 5518031307,
-  "lat": 52.4735715,
-  "lon": 13.4385527,
+  "lat": 52.4735887,
+  "lon": 13.4385905,
   "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-04",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Neukoelln Thomasstr.jpg",
+    "loc_name": "Plumpe",
     "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
     "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "modern",
     "pump:type": "beam_pump",
+    "ref": "64",
     "water_well": "pump"
   }
 },
@@ -14827,8 +15773,8 @@
 {
   "type": "node",
   "id": 5538995538,
-  "lat": 52.5114362,
-  "lon": 13.4864702,
+  "lat": 52.5113896,
+  "lon": 13.4864510,
   "tags": {
     "addr:full": "Harnackstraße ggü. KinderKombination",
     "alt_name": "Trinkwassernotbrunnen",
@@ -15996,6 +16942,2554 @@
     "start_date": "2016",
     "water_well": "pump",
     "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Lichtenberg"
+  }
+},
+{
+  "type": "node",
+  "id": 5562673280,
+  "lat": 52.4813400,
+  "lon": 13.3628262,
+  "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-04-18",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Schoeneberg Leuthener Str.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "21",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5562673281,
+  "lat": 52.4803258,
+  "lon": 13.3817732,
+  "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-04-18",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Tempelhof Bundesring.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "note": "Handschwengel schwer zu bewegen, offenbar kommt kein Wasser",
+    "pump": "manual",
+    "pump:status": "broken",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "79",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054550,
+  "lat": 52.6351508,
+  "lon": 13.4993686,
+  "tags": {
+    "description": "Verschlossene Brunnenfassung und in den Gehweg eingelassener Tränkstein. Der ursprünglich hier verortete Straßenbrunnen wurde 58m nach Süden versetzt und ist ebenfalls kartiert.",
+    "end_date": "~2017",
+    "image": "File:Straßenbrunnen30 alt Buch Karower Straße (1).jpg",
+    "man_made": "water_well",
+    "pump": "no",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054551,
+  "lat": 52.5910763,
+  "lon": 13.4088308,
+  "tags": {
+    "addr:full": "Körnerstraße 11",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 20 Niederschönhausen Körnerstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa020",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "20",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054552,
+  "lat": 52.5456269,
+  "lon": 13.4473370,
+  "tags": {
+    "addr:full": "GreifswalderStraße 120",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen37 PrBg Greifswalder120 (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb037",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "37",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054553,
+  "lat": 52.5349384,
+  "lon": 13.4427270,
+  "tags": {
+    "addr:full": "Rudolf-Schwarz-Straße 20",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen23 PrBg RudSchwarz20 (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb023",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "23",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054554,
+  "lat": 52.5570140,
+  "lon": 13.4727700,
+  "tags": {
+    "addr:full": "Bernkasteler Straße 10 (ggü Nummer 75)",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:StraßenbrunnenWs5 Weißensee Bernkasteler10 (5).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws005",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "5",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054555,
+  "lat": 52.6102328,
+  "lon": 13.4714406,
+  "tags": {
+    "addr:full": "Schräger Weg 37",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen 24 Karow Schräger Weg (4).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws024",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "24",
+    "start_date": "~1965",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054556,
+  "lat": 52.5306971,
+  "lon": 13.4330194,
+  "tags": {
+    "addr:full": "Bötzowstraße 20",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen21 PrBg Bötzowstraße20 (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb021",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "21",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054557,
+  "lat": 52.5330990,
+  "lon": 13.4222515,
+  "tags": {
+    "addr:full": "Immanuelkirchstraße 1a",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen34 PrBg Immanuelkirch- Ecke Prenzlauer (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb034",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "34",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054558,
+  "lat": 52.6005158,
+  "lon": 13.4026450,
+  "tags": {
+    "addr:full": "Dietzgenstraße / Wiesenkräuterweg",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen43 Rosenthal Wiesenkräuterweg (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa043",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "43",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054559,
+  "lat": 52.5515270,
+  "lon": 13.4476288,
+  "tags": {
+    "addr:full": "Behaimstraße 47",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen2 Weißensee Behaimstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws002",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "2",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054560,
+  "lat": 52.5701802,
+  "lon": 13.4066347,
+  "tags": {
+    "addr:full": "Breite Straße 15",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Pankow Straßenbrunnen11 BreiteStraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa011",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "11",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054561,
+  "lat": 52.6157528,
+  "lon": 13.4761147,
+  "tags": {
+    "addr:full": "Am Danewend 6",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen 17 Karow Danewendplatz (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws017",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "17",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054562,
+  "lat": 52.5364723,
+  "lon": 13.4273214,
+  "tags": {
+    "addr:full": "Jablonskistraße 11 / Winsstraße",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen18 PrBg Jablonski11-Winsstraße (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb018",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Borsig",
+    "pump:type": "beam_pump",
+    "ref": "18",
+    "start_date": "~2010",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054563,
+  "lat": 52.5885401,
+  "lon": 13.3731136,
+  "tags": {
+    "addr:full": "Schönholzer Weg 32",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen24 Wilhelmsruh Schönholzer Weg (7).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa024",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "24",
+    "start_date": "~1960",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054564,
+  "lat": 52.5468476,
+  "lon": 13.4414488,
+  "tags": {
+    "addr:full": "Ostseestraße 101 (Ostseeplatz)",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:PrenzlBerg Straßenbrunnen13 Ostseeplatz (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb013",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "13",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054565,
+  "lat": 52.5639202,
+  "lon": 13.4237184,
+  "tags": {
+    "addr:full": "Binzstraße 28",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Wasserpumpestr_binzstr_berlin_02.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa008",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "8",
+    "start_date": "~1975",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054566,
+  "lat": 52.5572577,
+  "lon": 13.4152988,
+  "tags": {
+    "addr:full": "Hallandstraße 5",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen3 Pankow Hallandstraße (4).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa003",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "3",
+    "start_date": "~1925",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054567,
+  "lat": 52.5863050,
+  "lon": 13.3678519,
+  "tags": {
+    "addr:full": "Edelweißstraße 42",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen49 Wilhelmsruh Edelweißstraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa049",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "49",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054568,
+  "lat": 52.5306798,
+  "lon": 13.4456944,
+  "tags": {
+    "addr:full": "Conrad-Blenkle-Straße 52",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen10 PrenzlBerg ErnstFürstenberg (4).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb010",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "10",
+    "start_date": "~2010",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054569,
+  "lat": 52.5344824,
+  "lon": 13.4400662,
+  "tags": {
+    "addr:full": "Hans-Otto-Straße 60",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen38 PrBg HansOtto60 (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb038",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "38",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054570,
+  "lat": 52.5815192,
+  "lon": 13.4140864,
+  "tags": {
+    "addr:full": "Rolandstraße 99",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 17 Niederschönhsn Rolandstraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa017",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "17",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054571,
+  "lat": 52.5615708,
+  "lon": 13.4127861,
+  "tags": {
+    "addr:full": "Berliner Straße 39",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 47 Pankow BerlinerStr39 (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa047",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "47",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054572,
+  "lat": 52.5524065,
+  "lon": 13.4505597,
+  "tags": {
+    "addr:full": "Pistoriusstraße 121",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen6 Weißensee Pistoriusstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws006",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "6",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054573,
+  "lat": 52.5359163,
+  "lon": 13.4353570,
+  "tags": {
+    "addr:full": "Eugen-Schönhaar-Straße 3",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen22 PrBg EugenSchönhaar EckeBLichtenberg (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb022",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "22",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054574,
+  "lat": 52.5941186,
+  "lon": 13.3998801,
+  "tags": {
+    "addr:full": "Kirchstraße 19",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen29 Rosenthal Kirchstraße (8).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa029",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "29",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054575,
+  "lat": 52.5491287,
+  "lon": 13.4199608,
+  "tags": {
+    "addr:full": "Wichertstraße 18",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 31 Wichertstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb031",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "31",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054576,
+  "lat": 52.6328005,
+  "lon": 13.4957238,
+  "tags": {
+    "addr:full": "Franz-Schmidt-Straße 8",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen44 Buch Franz-Schmidt-Straße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa044",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "44",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054577,
+  "lat": 52.5846040,
+  "lon": 13.4083180,
+  "tags": {
+    "addr:full": "Herthaplatz 11",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 59 Niederschönhausen Herthaplatz (11).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa059",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "Borsig",
+    "pump:type": "beam_pump",
+    "ref": "59",
+    "start_date": "~2010",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054578,
+  "lat": 52.5713721,
+  "lon": 13.4117619,
+  "tags": {
+    "addr:full": "Breite Straße 42",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen12 Oankow BreiteStraße (12).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa012",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "12",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054579,
+  "lat": 52.5963891,
+  "lon": 13.4468100,
+  "tags": {
+    "addr:full": "Hartmutstraße 5",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 15 Blankenburg Hartmutstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws015",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "15",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054580,
+  "lat": 52.6108781,
+  "lon": 13.4608360,
+  "tags": {
+    "addr:full": "Streckfußstraße 11",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen 18 Karow Streckfußstraße (5).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws018",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "18",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054581,
+  "lat": 52.5318529,
+  "lon": 13.4085172,
+  "tags": {
+    "addr:full": "Teutoburger Platz (Kaufhalle)",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Teutoburger Pl Pr'Berg 20110822 AMA fec (8).JPG",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb015",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Lauchhammer",
+    "pump:type": "beam_pump",
+    "ref": "15",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054582,
+  "lat": 52.5307926,
+  "lon": 13.4227499,
+  "tags": {
+    "addr:full": "Heinrich-Roller-Straße 20",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen44 PrBg HeinrichRoller20-Winsstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb044",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "44",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054583,
+  "lat": 52.6283542,
+  "lon": 13.4950553,
+  "tags": {
+    "addr:full": "Bruno-Apitz-Straße 19",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen53 Buch Bruno-Apitz-Straße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa053",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "53",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054584,
+  "lat": 52.5381946,
+  "lon": 13.4384161,
+  "tags": {
+    "addr:full": "Anton-Saefkow-Straße 24",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen14 PrenzlBerg AntonSaefkow (5).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb014",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "14",
+    "start_date": "~1960",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054585,
+  "lat": 52.5967330,
+  "lon": 13.4575390,
+  "tags": {
+    "addr:full": "Harzburger Straße 10",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen 12 Blankenburg Harzburger Straße (9).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws012",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "12",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054586,
+  "lat": 52.5949291,
+  "lon": 13.3842417,
+  "tags": {
+    "addr:full": "Rispenweg 22",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen21 Rosenthal Rispenweg (3).jpg.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa021",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "21",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054587,
+  "lat": 52.5999934,
+  "lon": 13.4601840,
+  "tags": {
+    "addr:full": "Sulzer Straße 23",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen 27 Blankenburg Sulzer Straße (7).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws027",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "27",
+    "start_date": "~2010",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054588,
+  "lat": 52.5590029,
+  "lon": 13.4070755,
+  "tags": {
+    "addr:full": "Andreas-Hofer-Platz",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen4 Pankow Andreas-Hofer-Platz (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa004",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "4",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054589,
+  "lat": 52.5909639,
+  "lon": 13.3712290,
+  "tags": {
+    "addr:full": "Hauptstraße 65",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen50 Rosenthal Hauptstraße (5).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa050",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "50",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054590,
+  "lat": 52.5688710,
+  "lon": 13.4182280,
+  "tags": {
+    "addr:full": "Granitzstraße 20",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen48 Pankow Granitzstraße (4).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa048",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "48",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054591,
+  "lat": 52.5707890,
+  "lon": 13.4684239,
+  "tags": {
+    "addr:full": "Ortnitstraße 89",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:StraßenbrunnenWs3 Weißensee Ortnitstraße89.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws003",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "3",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054592,
+  "lat": 52.5600158,
+  "lon": 13.4629645,
+  "tags": {
+    "addr:full": "Liebermannstraße 15",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:StraßenbrunnenWs22 Weißensee Liebermann15 JoeMayPlatz (5).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws022",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "22",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054593,
+  "lat": 52.5455985,
+  "lon": 13.4254757,
+  "tags": {
+    "addr:full": "Kanzowstraße 5",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen19 PrBg Kanzowstraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb019",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "19",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054594,
+  "lat": 52.5918376,
+  "lon": 13.3957061,
+  "tags": {
+    "addr:full": "Kastanienallee 15a",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen25 Nordend Kastanienallee (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa025",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "25",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054595,
+  "lat": 52.6182436,
+  "lon": 13.4977190,
+  "tags": {
+    "addr:full": "Nerthusweg 69a",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 16 Karow Nerthusweg (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws016",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "16",
+    "start_date": "~1975",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054596,
+  "lat": 52.5313514,
+  "lon": 13.4359918,
+  "tags": {
+    "addr:full": "Liselotte-Herrmann-Straße 12",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen41 PrBg LiloHermann (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb041",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "41",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054597,
+  "lat": 52.6269745,
+  "lon": 13.4917806,
+  "tags": {
+    "addr:full": "Friedrich-Richter-Straße 55",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen54 Buch Friedrich-Richter-Straße 55 (5).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa054",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "54",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054598,
+  "lat": 52.5407673,
+  "lon": 13.4460494,
+  "tags": {
+    "addr:full": "Pieskower Weg 39",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen11 PrBg PieskowerWeg (8).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb011",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "11",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054599,
+  "lat": 52.5917412,
+  "lon": 13.4262107,
+  "tags": {
+    "addr:full": "Zimbelstraße 48",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2017-12-30",
+    "image": "File:Straßenbrunnen22 FrzBuchholz Zimbelstraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa022",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "22",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054600,
+  "lat": 52.5509390,
+  "lon": 13.4410910,
+  "tags": {
+    "addr:full": "Streustraße / Roelckestraße 117",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen9 Weißensee Streu-Roelckestraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws009",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "9",
+    "start_date": "~1980",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054601,
+  "lat": 52.6011381,
+  "lon": 13.4750562,
+  "tags": {
+    "addr:full": "Straße 45 /Straße 49",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen 28 Karow Straße45 zu 49 (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws028",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "28",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054602,
+  "lat": 52.5335299,
+  "lon": 13.4583176,
+  "tags": {
+    "addr:full": "Syringenplatz 5",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen25 PrBg Syringenplatz ggü2 (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb025",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "25",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054603,
+  "lat": 52.5602612,
+  "lon": 13.4438793,
+  "tags": {
+    "addr:full": "Gäblerstraße 90",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen07-Weißensee-Gäblerstraße (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws007",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "7",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054604,
+  "lat": 52.6455324,
+  "lon": 13.4991673,
+  "tags": {
+    "addr:full": "Hörstenweg 43",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen32 Buch Hörstenweg (12).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa032",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "32",
+    "start_date": "~1925",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054605,
+  "lat": 52.5542911,
+  "lon": 13.4181965,
+  "tags": {
+    "addr:full": "Schonensche Straße 9",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen1 Pankow Schonensche (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa001",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "1",
+    "start_date": "~1925",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054606,
+  "lat": 52.6346470,
+  "lon": 13.4995859,
+  "tags": {
+    "addr:full": "Karower Straße 1",
+    "alt_name": "Trinkwassernotbrunnen",
+    "description": "Brunnen wurde um 2017 bei Straßenbauarbeiten von seinem ursprünglichen Standort (Höhe Karower Straße 1, 58m nördlich von hier, ebenfalls kartiert) an diesen Standort versetzt.",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen30 nun Buch Karower Straße (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa030",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "30",
+    "start_date": "~2017",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054607,
+  "lat": 52.5546500,
+  "lon": 13.4086626,
+  "tags": {
+    "addr:full": "Stavangerstraße 2/3",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 7 Prbg Stavanger (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb007",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "7",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054608,
+  "lat": 52.5849240,
+  "lon": 13.4252433,
+  "tags": {
+    "addr:full": "Pankower Straße 14",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 15 Niederschhsn Pankower Str (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa015",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "15",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054609,
+  "lat": 52.6267131,
+  "lon": 13.4937268,
+  "tags": {
+    "addr:full": "Friedrich-Richter-Straße 6",
+    "alt_name": "Trinkwassernotbrunnen",
+    "depth": "52",
+    "drinking_water:legal": "no",
+    "image": "File:StraßenbrunnenPa45 Fr-Richter-Straße (6).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa045",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "45",
+    "start_date": "1993",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054610,
+  "lat": 52.5528387,
+  "lon": 13.4022181,
+  "tags": {
+    "addr:full": "Ueckermünder Straße 15",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen5 PrBg Ueckermünder (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb005",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "5",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054611,
+  "lat": 52.5578594,
+  "lon": 13.4583244,
+  "tags": {
+    "addr:full": "Große Seestraße 108d",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen4 Weißensee GroßeSee (6).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws004",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "4",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054612,
+  "lat": 52.6045512,
+  "lon": 13.4209269,
+  "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "depth": "36",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunen26 FrzBuchholz Mazetstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa026",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "26",
+    "start_date": "2012",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054613,
+  "lat": 52.5400394,
+  "lon": 13.4176299,
+  "tags": {
+    "addr:full": "Danziger Straße 30",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen45 PrBg Danziger30 (6).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb045",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "45",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054614,
+  "lat": 52.5969302,
+  "lon": 13.4027907,
+  "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen42 Rosnthal Dietzgenstraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa042",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "42",
+    "start_date": "1992",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054615,
+  "lat": 52.5650205,
+  "lon": 13.4130264,
+  "tags": {
+    "addr:full": "Borkumstraße 1",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen57 Pankow Borkumstraße (6).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa057",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "57",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054616,
+  "lat": 52.5912065,
+  "lon": 13.4699415,
+  "tags": {
+    "addr:full": "Kirchstraße 19",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen 13 Blankenburg Kirchstraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws013",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "13",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054617,
+  "lat": 52.5471564,
+  "lon": 13.4313458,
+  "tags": {
+    "addr:full": "Sültstraße 25",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:PrenzlBerg Straßenbrunnen29 Sültstraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb029",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "29",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054618,
+  "lat": 52.5736577,
+  "lon": 13.4220409,
+  "tags": {
+    "addr:full": "Klaustaler Straße 30",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen37 in Pankow Klaustaler Straße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa037",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "37",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054619,
+  "lat": 52.5320759,
+  "lon": 13.4161688,
+  "tags": {
+    "addr:full": "Straßburger Straße 24",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen42 PrBg Straßburger24 (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb042",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "42",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579054620,
+  "lat": 52.5594340,
+  "lon": 13.4105360,
+  "tags": {
+    "addr:full": "Tiroler Straße 60",
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa005",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "5",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058321,
+  "lat": 52.5963984,
+  "lon": 13.3748911,
+  "tags": {
+    "addr:full": "Hauptstraße 107A",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen51 Rosenthal Hauptstraße (11).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa051",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "51",
+    "start_date": "~1925",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058322,
+  "lat": 52.5376253,
+  "lon": 13.4152341,
+  "tags": {
+    "addr:full": "Knaackstraße 64-66",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen12 PrBg Knaackstraße (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb012",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "12",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058323,
+  "lat": 52.5480274,
+  "lon": 13.4561424,
+  "tags": {
+    "access": "private",
+    "addr:full": "Bizetstraße 64",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:StraßenbrunnenWs10 Weißensee Bizet64 (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws010",
+    "operator": "Bund",
+    "playground": "water",
+    "pump": "manual",
+    "pump:type": "beam_pump",
+    "ref": "10",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058324,
+  "lat": 52.6038298,
+  "lon": 13.4521903,
+  "tags": {
+    "addr:full": "Burgwallstraße 26c",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen25 Blankenburg Burgwallstraße (4).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws025",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "25",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058325,
+  "lat": 52.5476790,
+  "lon": 13.4034620,
+  "tags": {
+    "addr:full": "Korsörer Straße 21",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen26 PrBg Korsörer (4).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb026",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "26",
+    "start_date": "~1960",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058326,
+  "lat": 52.5481382,
+  "lon": 13.4605047,
+  "tags": {
+    "access": "private",
+    "addr:full": "Gounodstraße 71 /Meyerbeerstraße",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen08 Weißensee Meyerbeer80 (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws008",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "8",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058327,
+  "lat": 52.5512430,
+  "lon": 13.4664620,
+  "tags": {
+    "addr:full": "Gartenstraße 41",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:StraßenbrunnenWs23 Weißensee Gartenstraße41 (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws023",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "23",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058328,
+  "lat": 52.5805314,
+  "lon": 13.4274531,
+  "tags": {
+    "addr:full": "Vesaliusstraße 80",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 34 Pankow Vesaliusstr (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa034",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "34",
+    "start_date": "~1975",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058329,
+  "lat": 52.5550600,
+  "lon": 13.4243519,
+  "tags": {
+    "addr:full": "Thulestraße 48",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2017-11-20",
+    "drinking_water:legal": "no",
+    "image": "File:Wasserpumpe thulestr berlin – 1.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa002",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "2",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058330,
+  "lat": 52.6438819,
+  "lon": 13.5032342,
+  "tags": {
+    "addr:full": "Viereckweg 60",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen31 Buch Viereckweg (6).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa031",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "31",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058331,
+  "lat": 52.5822407,
+  "lon": 13.4205487,
+  "tags": {
+    "addr:full": "Karower Straße 4",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 16 Niederschönhsn Karower Str (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa016",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "16",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058332,
+  "lat": 52.5620725,
+  "lon": 13.4177608,
+  "tags": {
+    "addr:full": "Arnold-Zweig-Straße 41",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen46 Pankow Arnold-Zweig-Str (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa046",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "46",
+    "start_date": "~1980",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058333,
+  "lat": 52.5427561,
+  "lon": 13.4111711,
+  "tags": {
+    "addr:full": "Topsstraße / Cantianstraße",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 2 PrBg Tops-Ecke Cantian (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb002",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "2",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058334,
+  "lat": 52.5741616,
+  "lon": 13.3959959,
+  "tags": {
+    "addr:full": "Homeyerstraße 17",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen14 Pankow Homeyerstraße (6).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa014",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "14",
+    "start_date": "~1960",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058335,
+  "lat": 52.5604502,
+  "lon": 13.4477840,
+  "tags": {
+    "addr:full": "Günter-Litfin-Straße 27",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen20 Weißensee Litfinstraße (5).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws020",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "20",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058336,
+  "lat": 52.5501138,
+  "lon": 13.4261495,
+  "tags": {
+    "addr:full": "Kuglerstraße 81",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen17 PrBg Kuglerstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb017",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "17",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058337,
+  "lat": 52.5873771,
+  "lon": 13.3639686,
+  "tags": {
+    "addr:full": "Uhlandstraße 12",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen23 Wilhelmsruh Uhlandstraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa023",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "23",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058338,
+  "lat": 52.5723447,
+  "lon": 13.3828050,
+  "tags": {
+    "addr:full": "Schützenstraße 20 / Straße am Bürgerpark",
+    "alt_name": "Trinkwassernotbrunnen",
+    "image": "File:Straßenbrunnen55 Niederschönhsn Schützenstraße (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa055",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "55",
+    "start_date": "~2000",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058339,
+  "lat": 52.5827791,
+  "lon": 13.3766441,
+  "tags": {
+    "addr:full": "Sachsenstraße 23",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen58 Niederschönhsn Sachsenstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa058",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "58",
+    "start_date": "~1920",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058340,
+  "lat": 52.5937746,
+  "lon": 13.4711569,
+  "tags": {
+    "addr:full": "Ziegelstraße 63",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen 14 BlBurg Ziegelstraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Ws014",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "14",
+    "start_date": "~1990",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058341,
+  "lat": 52.5406927,
+  "lon": 13.4263616,
+  "tags": {
+    "addr:full": "Fröbelstraße 17",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen30 PrBg Fröbelstraße 17 (3).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pb030",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "30",
+    "start_date": "~1970",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058342,
+  "lat": 52.5730336,
+  "lon": 13.4197756,
+  "tags": {
+    "addr:full": "Mendelstraße 1",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen38 in Pankow Mendelstraße (2).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa038",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Krause",
+    "pump:type": "beam_pump",
+    "ref": "38",
+    "start_date": "~1930",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058343,
+  "lat": 52.5604244,
+  "lon": 13.4047672,
+  "tags": {
+    "addr:full": "Zillertalstraße 11",
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "image": "File:Straßenbrunnen6 Pankow Zillertalstraße (1).jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "official_ref": "STRB03Pa006",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:style": "Pankow",
+    "pump:type": "beam_pump",
+    "ref": "6",
+    "start_date": "~1935",
+    "water_well": "pump",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579058344,
+  "lat": 52.5670423,
+  "lon": 13.4072870,
+  "tags": {
+    "description": "Verschlossene Brunnenfassung",
+    "image": "File:Straßenbrunnen in Dusekestraße fehlt52-Deckel vor 19 (2).jpg",
+    "man_made": "water_well",
+    "official_ref": "STRB03Pa052",
+    "operator": "Bund",
+    "pump": "no",
+    "ref": "52",
+    "wikipedia": "de:Liste der Straßenbrunnen im Berliner Bezirk Pankow"
+  }
+},
+{
+  "type": "node",
+  "id": 5579165395,
+  "lat": 52.4804323,
+  "lon": 13.3751967,
+  "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-04-25",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Tempelhof Bäumerplan Loewenhardtdamm.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "5",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5579165396,
+  "lat": 52.4807691,
+  "lon": 13.3757560,
+  "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-04-25",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Tempelhof Wolffring Loewenhardtdamm.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "95",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5627054552,
+  "lat": 52.5108537,
+  "lon": 13.2831558,
+  "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "Wolf",
+    "pump:type": "beam_pump",
+    "ref": "90",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5632437779,
+  "lat": 52.5005455,
+  "lon": 13.4169838,
+  "tags": {
+    "addr:full": "Dresdener Straße 127",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Dresdener Str.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "88",
+    "start_date": "1984",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5641863351,
+  "lat": 52.5009880,
+  "lon": 13.3497962,
+  "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "colour": "green",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:style": "Wolf",
+    "pump:type": "beam_pump",
+    "pump_status": "ok",
+    "ref": "51",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5641890031,
+  "lat": 52.4981847,
+  "lon": 13.4106773,
+  "tags": {
+    "addr:full": "Böcklerstraße, ggü. 38",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-20",
+    "colour": "#35412E;blue",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Böcklerstr 38.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "Rümmler",
+    "pump:type": "beam_pump",
+    "ref": "87",
+    "start_date": "1982",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5641890032,
+  "lat": 52.4949263,
+  "lon": 13.4126251,
+  "tags": {
+    "addr:full": "Planufer, ggü. 81",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-20",
+    "colour": "#35412E;blue",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Planufer 81.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "Rümmler",
+    "pump:type": "beam_pump",
+    "ref": "82",
+    "start_date": "1978",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5641890033,
+  "lat": 52.4966668,
+  "lon": 13.4398615,
+  "tags": {
+    "addr:full": "Görlitzer Straße, ggü. 48",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "image": "File:Str.brunnen Kreuzberg Görlitzer Str 48.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:status": "missing_beam",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "9",
+    "start_date": "1982",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5641890034,
+  "lat": 52.4956195,
+  "lon": 13.4269600,
+  "tags": {
+    "addr:full": "Lausitzer Straße 22",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Lausitzer Str.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "operator": "Bund",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "99",
+    "start_date": "1989",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5641890035,
+  "lat": 52.4954018,
+  "lon": 13.4305349,
+  "tags": {
+    "addr:full": "Reichenberger Straße 63",
+    "alt_name": "Trinkwassernotbrunnen",
+    "check_date": "2018-05-19",
+    "colour": "#35412E",
+    "drinking_water:legal": "no",
+    "image": "File:Str.brunnen Kreuzberg Reichenberger Str 63.jpg",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "operator": "Land",
+    "pump": "manual",
+    "pump:status": "broken",
+    "pump:style": "modern",
+    "pump:type": "beam_pump",
+    "ref": "10",
+    "start_date": "1964",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5696509315,
+  "lat": 52.4949740,
+  "lon": 13.3515825,
+  "tags": {
+    "man_made": "water_well",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:type": "beam_pump",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5696509338,
+  "lat": 52.4958468,
+  "lon": 13.3452626,
+  "tags": {
+    "alt_name": "Trinkwassernotbrunnen",
+    "drinking_water:legal": "no",
+    "loc_name": "Plumpe",
+    "man_made": "water_well",
+    "name": "Berliner Straßenbrunnen",
+    "pump": "manual",
+    "pump:status": "ok",
+    "pump:style": "Wolf",
+    "pump:type": "beam_pump",
+    "ref": "100",
+    "water_well": "pump"
+  }
+},
+{
+  "type": "node",
+  "id": 5745608306,
+  "lat": 52.4680661,
+  "lon": 13.4694025,
+  "tags": {
+    "man_made": "water_well",
+    "playground": "water"
   }
 }
 

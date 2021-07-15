@@ -110,7 +110,7 @@ function drawLayer() {
 
 fetch("https://overpass-api.de/api/interpreter", {
   method: "POST",
-  body: "[out:json];area[name='Berlin'];node(area)[loc_name='Plumpe'];out;"
+  body: "[out:json];area[name='Berlin'];node(area)[man_made=water_well];out;"
 })
   .then(response => response.json())
   .then(function(json) {

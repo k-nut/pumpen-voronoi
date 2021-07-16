@@ -1,8 +1,14 @@
 {
+  "scripts": {
+    "start": "parcel eatch main.js",
+    "build": "parcel build main.js"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
   "dependencies": {
     "d3": "3.5.14",
     "leaflet": "0.7.5",
-    "lodash": "^4.17.10",
-    "parcel-bundler": "^1.7.1"
+    "lodash": "^4.17.10"
   }
 }

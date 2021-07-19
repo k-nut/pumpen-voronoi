@@ -9,6 +9,6 @@
   "dependencies": {
     "d3": "3.5.14",
     "leaflet": "0.7.5",
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.21"
   }
 }

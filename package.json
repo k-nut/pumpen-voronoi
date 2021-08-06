@@ -1,10 +1,9 @@
 {
   "scripts": {
-    "start": "parcel eatch main.js",
-    "build": "parcel build main.js"
+    "build": "esbuild main.js --bundle --minify --outfile=dist/bundle.js --loader:.png=dataurl"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "esbuild": "^0.12.18"
   },
   "dependencies": {
     "d3": "3.5.14",

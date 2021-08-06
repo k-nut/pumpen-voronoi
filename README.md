@@ -16,16 +16,17 @@ yarn install
 ```
 
 ## Develop
+When you made changed to your files, run
 ```bash
-npx parcel watch main.js
+yarn build
 ```
-and then start a local server (e.g. `python3 -m http.server`)
+Then start a local server (e.g. `python3 -m http.server`) to serve the files.
 
 
 ## Building
 Create a build with
 ```bash
-npx parcel build main.js
+yarn build
 ```
 
 

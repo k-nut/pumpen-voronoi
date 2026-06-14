@@ -3,7 +3,7 @@
     "build": "esbuild main.js --bundle --minify --outfile=dist/bundle.js --loader:.png=dataurl"
   },
   "devDependencies": {
-    "esbuild": "^0.25.0"
+    "esbuild": "^0.28.1"
   },
   "dependencies": {
     "d3": "3.5.14",
